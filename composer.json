@@ -24,7 +24,10 @@
     "forum": "https://discourse.roots.io/category/bedrock"
   },
   "config": {
-    "preferred-install": "dist"
+    "preferred-install": "dist",
+    "platform": {
+      "php": "7.3.4"
+    }
   },
   "repositories": [
     {
@@ -34,6 +37,25 @@
     {
       "type": "composer",
       "url": "https://wp-languages.github.io"
+    },
+    {
+      "type": "package",
+      "package": {
+        "name": "advanced-custom-fields/advanced-custom-fields-pro",
+        "version": "5.8.3",
+        "type": "wordpress-plugin",
+        "dist": {
+          "type": "zip",
+          "url": "https://connect.advancedcustomfields.com/index.php?a=download&p=pro&k={%ACF_KEY}&t={%version}"
+        },
+        "require": {
+          "ffraenz/private-composer-installer": "^2.0"
+        }
+      }
+    },
+    {
+      "type": "vcs",
+      "url": "https://github.com/cookpad-baby/simple-seo-pack"
     }
   ],
   "require": {
@@ -45,11 +67,24 @@
     "roots/wp-config": "1.0.0",
     "roots/wp-password-bcrypt": "1.0.0",
     "koodimonni-language/core-ja": "*",
-    "koodimonni-plugin-language/wordpress-importer-ja": "*"
+    "koodimonni-plugin-language/wordpress-importer-ja": "*",
+    "advanced-custom-fields/advanced-custom-fields-pro": "*",
+    "cookpad-baby/simple-seo-pack": "dev-master",
+    "wpackagist-plugin/amazon-s3-and-cloudfront": "*",
+    "wpackagist-plugin/breadcrumb-navxt": "*",
+    "wpackagist-plugin/custom-post-type-permalinks": "*",
+    "wpackagist-plugin/custom-post-type-ui": "*",
+    "wpackagist-plugin/google-sitemap-generator": "*",
+    "wpackagist-plugin/loginizer": "*",
+    "wpackagist-plugin/wordpress-importer": "*",
+    "wpackagist-plugin/wp-mail-smtp": "*",
+    "wpackagist-plugin/wp-multibyte-patch": "*",
+    "wpackagist-plugin/wp-super-cache": "*"
   },
   "require-dev": {
     "squizlabs/php_codesniffer": "^3.4.2",
-    "roave/security-advisories": "dev-master"
+    "roave/security-advisories": "dev-master",
+    "deployer/deployer": "^6.5"
   },
   "extra": {
     "installer-paths": {
