@@ -2,44 +2,55 @@
 
 [Bedrock](https://roots.io/bedrock/) を使用。
 
-## 機能
+## 概要
+* 本体の更新やプラグイン導入はComposerを使用する。
+  * `composer.json`,`composer.lock` に定義される。
+* 導入環境の設定は.envに行なう
+* テーマは別管理なので、このリポジトリでは導入プラグインの管理だけ
 
-* 本体・プラグインの自動更新は行なわれない
-* 本体の更新やプラグイン導入はComposerを使用する
+## 構築に必要なもの
+* macOS
+* Git
+* Composer 以下で入れるのが楽
+  * https://brew.sh/index_ja HomeBrew
+  * `brew install composer`
 
-## 導入
-
-1. プロジェクトを作成
+## 構築
+### 1. ローカルにプロジェクトを作成
   ```sh
   $ git clone git@github.com:cookpad-baby/hosting-wordpress.git <domain>
   ```
 
-2. データベースとユーザーを作成
+### 2. `.env.example` をコピーし `.env` ファイルに環境を記述
+  手元でプラグインの導入削除するだけなら以下だけ追記すればいい
+  * `ACF_KEY` : Advanced Custom Fields のライセンスコード
 
-3. `.env.example` をコピーし `.env` ファイルに環境を記述
-  * `DB_NAME` - データベース名
-  * `DB_USER` - データベースユーザー
-  * `DB_PASSWORD` - データベースパスワード
-  * `DB_HOST` - `db01.babypad.local`
-  * `WP_ENV` - `production`
-  * `WP_HOME` - `https://<産院domain>`
-  * `WP_SITEURL` - `https://<産院domain>`
-  * `AUTH_KEY`, `SECURE_AUTH_KEY`, `LOGGED_IN_KEY`, `NONCE_KEY`, `AUTH_SALT`, `SECURE_AUTH_SALT`, `LOGGED_IN_SALT`, `NONCE_SALT`
-    * [WordPress salts generator](https://roots.io/salts.html) を使用して生成
-  * `ACF_KEY` - Advanced Custom Fields のライセンスコードを記述
+### 3. Wordpressのアップデートとプラグイン導入削除
+以下コマンド、または`composer.json`直接弄ってから`composer update`でもよい
+```sh
+  $ composer update
+  $ composer require wpackagist-plugin/classic-editor:*
+  $ composer remove wpackagist-plugin/classic-editor:*
+```
 
-4. githubリポジトリを作成
-  * リポジトリ名 hosting-**産院domain**
+Wordpress公式で配布されているものならwpackagistにホストされてるはず
+
+https://ja.wordpress.org/plugins/wp-multibyte-patch/ Wordpress公式配布URL内に書かれているプラグイン名を元に https://wpackagist.org/ で調べる。
+
+バージョン指定は `*` で最新バージョンを入れるよう指定
+
+### 4. githubリポジトリを作成
+  * リポジトリ名 : hosting-**domain**
   * originを変更
   ```sh
   $ git remote set-url origin <新リポジトリ>
   ```
 
-5. `deploy.php` を編集
-  * `set('application', '<産院domain>');`
-  * `set('repository', '<新リポジトリ>');`
-
-6. デプロイ
+  * プラグイン導入削除しただけなら `composer.json`と`composer.lock`だけが変更されている
   ```sh
-  $ vendor/bin/dep deploy
+  $ git commit -a -m "Add/Remove plugins."
+  $ git push
   ```
+
+### 導入先環境作成
+[こちらに書く](https://github.com/cookpad-baby/BabyPad-ansible)
