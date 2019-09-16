@@ -28,8 +28,13 @@
 ### 3. Wordpressのアップデートとプラグイン導入削除
 以下コマンド、または`composer.json`直接弄ってから`composer update`でもよい
 ```sh
+  # 導入とアップデート
   $ composer update
+
+  # 追加
   $ composer require wpackagist-plugin/classic-editor:*
+
+  # 削除
   $ composer remove wpackagist-plugin/classic-editor:*
 ```
 
