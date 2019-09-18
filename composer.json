@@ -79,7 +79,8 @@
     "wpackagist-plugin/wordpress-importer": "*",
     "wpackagist-plugin/wp-mail-smtp": "*",
     "wpackagist-plugin/wp-multibyte-patch": "*",
-    "wpackagist-plugin/wp-super-cache": "*"
+    "wpackagist-plugin/wp-super-cache": "*",
+    "wpackagist-plugin/wp-dashboard-notes": "*"
   },
   "require-dev": {
     "squizlabs/php_codesniffer": "^3.4.2",
