@@ -16,9 +16,11 @@
   * `brew install composer`
 
 ## 構築
+以下手順の`<ドメイン名>`は導入先ドメインに置き換えること
+
 ### 1. ローカルにプロジェクトを作成
-  ```sh
-  $ git clone git@github.com:cookpad-baby/hosting-wordpress.git <domain>
+  ```ShellSession
+  $ git clone git@github.com:cookpad-baby/hosting-wordpress.git <ドメイン名>
   ```
 
 ### 2. `.env.example` をコピーし `.env` ファイルに環境を記述
@@ -27,7 +29,7 @@
 
 ### 3. Wordpressのアップデートとプラグイン導入削除
 以下コマンド、または`composer.json`直接弄ってから`composer update`でもよい
-```sh
+```ShellSession
   # 導入とアップデート
   $ composer update
 
@@ -44,15 +46,23 @@ https://ja.wordpress.org/plugins/wp-multibyte-patch/ Wordpress公式配布URL内
 
 バージョン指定は `*` で最新バージョンを入れるよう指定
 
-### 4. githubリポジトリを作成
-  * リポジトリ名 : hosting-**domain**
+### 4. UploadフォルダS3化プラグイン設定
+`config/environments/production.php`を編集
+```
+'object-prefix' => 'BASE/uploads/',
+  ↓
+'object-prefix' => '<ドメイン名>/uploads/',
+```
+
+### 5. githubリポジトリを作成
+  * リポジトリ名 : hosting-**<ドメイン名>**
   * originを変更
-  ```sh
+  ```ShellSession
   $ git remote set-url origin <新リポジトリ>
   ```
 
   * プラグイン導入削除しただけなら `composer.json`と`composer.lock`だけが変更されている
-  ```sh
+  ```ShellSession
   $ git commit -a -m "Add/Remove plugins."
   $ git push
   ```
