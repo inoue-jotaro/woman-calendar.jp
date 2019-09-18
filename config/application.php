@@ -109,6 +109,9 @@ if (isset($_SERVER['HTTP_X_FORWARDED_PROTO']) && $_SERVER['HTTP_X_FORWARDED_PROT
     $_SERVER['HTTPS'] = 'on';
 }
 
+// Contact Form7のおせっかいな警告を抑制する
+Config::define('WPCF7_VALIDATE_CONFIGURATION', false);
+
 $env_config = __DIR__ . '/environments/' . WP_ENV . '.php';
 
 if (file_exists($env_config)) {
