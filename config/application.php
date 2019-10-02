@@ -112,6 +112,24 @@ if (isset($_SERVER['HTTP_X_FORWARDED_PROTO']) && $_SERVER['HTTP_X_FORWARDED_PROT
 // Contact Form7のおせっかいな警告を抑制する
 Config::define('WPCF7_VALIDATE_CONFIGURATION', false);
 
+// WP Offload Media
+Config::define('AS3CF_SETTINGS', serialize([
+  'provider' => 'aws',
+  'use-server-roles' => true,
+  'bucket' => 'static.babypad.jp',
+  'region' => 'ap-northeast-1',
+  'copy-to-s3' => true,
+  'serve-from-s3' => true,
+  'domain' => 'cloudfront',
+  'cloudfront' => 'static.babypad.jp',
+  'enable-object-prefix' => true,
+  'object-prefix' => env('DOMAIN_NAME') . '/uploads/',
+  'use-yearmonth-folders' => true,
+  'force-https' => true,
+  'remove-local-file' => true,
+  'object-versioning' => true,
+]));
+
 $env_config = __DIR__ . '/environments/' . WP_ENV . '.php';
 
 if (file_exists($env_config)) {
