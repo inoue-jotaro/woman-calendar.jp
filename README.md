@@ -44,7 +44,41 @@ Wordpress公式で配布されているものならwpackagistにホストされ�
 
 https://ja.wordpress.org/plugins/wp-multibyte-patch/ Wordpress公式配布URL内に書かれているプラグイン名を元に https://wpackagist.org/ で調べる。
 
-バージョン指定は `*` で最新バージョンを入れるよう指定
+バージョン指定は `*` で最新を入れるよう指定
+
+### 3.5. プラグイン日本語化
+[ここ](https://github.com/wp-languages/wp-languages.github.io#manually-adding-any-language-zip-to-your-composerjson)を参考に、Wordpress公式翻訳リポジトリから直接取る記述を追加し、requireする。
+
+{%version} の記述が使えるのでurlにはバージョン書かなくていい。
+
+```json
+{
+  "repositories": [
+    {
+      "type": "package",
+      "package": {
+        "name": "koodimonni-plugin-language/wp-super-cache-ja",
+        "type": "wordpress-language",
+        "version": "1.6.9",
+        "dist": {
+          "type": "zip",
+          "url": "https://downloads.wordpress.org/translation/plugin/wp-super-cache/{%version}/ja.zip",
+          "reference": "master"
+        }
+      }
+    }
+  ],
+  "require": {
+    "koodimonni-plugin-language/wp-super-cache-ja": "*"
+  }
+}
+```
+
+#### 翻訳のアップデート
+
+API https://api.wordpress.org/translations/plugins/1.0/?slug=<プラグイン名> から翻訳バージョンを調べる。
+repositories.version項に記述し、`composer update`する。
+
 
 ### 4. githubリポジトリを作成
   * リポジトリ名 : hosting-**<ドメイン名>**
