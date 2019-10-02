@@ -39,6 +39,10 @@
       "url": "https://wp-languages.github.io"
     },
     {
+      "type": "vcs",
+      "url": "https://github.com/cookpad-baby/simple-seo-pack"
+    },
+    {
       "type": "package",
       "package": {
         "name": "advanced-custom-fields/advanced-custom-fields-pro",
@@ -54,8 +58,95 @@
       }
     },
     {
-      "type": "vcs",
-      "url": "https://github.com/cookpad-baby/simple-seo-pack"
+      "type": "package",
+      "package": {
+        "name": "koodimonni-plugin-language/breadcrumb-navxt-ja",
+        "type": "wordpress-language",
+        "version": "6.0.4",
+        "dist": {
+          "type": "zip",
+          "url": "https://downloads.wordpress.org/translation/plugin/breadcrumb-navxt/{%version}/ja.zip",
+          "reference": "master"
+        }
+      }
+    },
+    {
+      "type": "package",
+      "package": {
+        "name": "koodimonni-plugin-language/classic-editor-ja",
+        "type": "wordpress-language",
+        "version": "1.5",
+        "dist": {
+          "type": "zip",
+          "url": "https://downloads.wordpress.org/translation/plugin/classic-editor/{%version}/ja.zip",
+          "reference": "master"
+        }
+      }
+    },
+    {
+      "type": "package",
+      "package": {
+        "name": "koodimonni-plugin-language/contact-form-7-ja",
+        "type": "wordpress-language",
+        "version": "5.1.4",
+        "dist": {
+          "type": "zip",
+          "url": "https://downloads.wordpress.org/translation/plugin/contact-form-7/{%version}/ja.zip",
+          "reference": "master"
+        }
+      }
+    },
+    {
+      "type": "package",
+      "package": {
+        "name": "koodimonni-plugin-language/custom-post-type-ui-ja",
+        "type": "wordpress-language",
+        "version": "1.5.8",
+        "dist": {
+          "type": "zip",
+          "url": "https://downloads.wordpress.org/translation/plugin/custom-post-type-ui/{%version}/ja.zip",
+          "reference": "master"
+        }
+      }
+    },
+    {
+      "type": "package",
+      "package": {
+        "name": "koodimonni-plugin-language/duplicate-post-ja",
+        "type": "wordpress-language",
+        "version": "3.2.3",
+        "dist": {
+          "type": "zip",
+          "url": "https://downloads.wordpress.org/translation/plugin/duplicate-post/{%version}/ja.zip",
+          "reference": "master"
+        }
+      }
+    },
+    {
+      "type": "package",
+      "package": {
+        "name": "koodimonni-plugin-language/google-sitemap-generator-ja",
+        "type": "wordpress-language",
+        "version": "4.1.0",
+        "dist": {
+          "type": "zip",
+          "url": "https://downloads.wordpress.org/translation/plugin/google-sitemap-generator/{%version}/ja.zip",
+          "reference": "master"
+        }
+      }
+    },
+    {
+      "type": "package",
+      "package": {
+        "name": "koodimonni-plugin-language/mw-wp-form-ja",
+        "type": "wordpress-language",
+        "version": "4.1.2",
+        "dist": {
+          "type": "zip",
+          "url": "https://downloads.wordpress.org/translation/plugin/mw-wp-form/{%version}/ja.zip",
+          "reference": "master"
+        }
+      }
     }
   ],
   "require": {
@@ -66,22 +157,43 @@
     "roots/wordpress": "^5.2.2",
     "roots/wp-config": "1.0.0",
     "roots/wp-password-bcrypt": "1.0.0",
-    "koodimonni-language/core-ja": "*",
-    "koodimonni-plugin-language/wordpress-importer-ja": "*",
     "advanced-custom-fields/advanced-custom-fields-pro": "*",
     "cookpad-baby/simple-seo-pack": "dev-master",
+    "koodimonni-language/core-ja": "*",
+    "koodimonni-plugin-language/breadcrumb-navxt-ja": "*",
+    "koodimonni-plugin-language/classic-editor-ja": "*",
+    "koodimonni-plugin-language/contact-form-7-ja": "*",
+    "koodimonni-plugin-language/custom-post-type-ui-ja": "*",
+    "koodimonni-plugin-language/duplicate-post-ja": "*",
+    "koodimonni-plugin-language/google-sitemap-generator-ja": "*",
+    "koodimonni-plugin-language/mw-wp-form-ja": "*",
+    "koodimonni-plugin-language/wordpress-importer-ja": "*",
+    "wpackagist-plugin/ajax-calendar": "*",
+    "wpackagist-plugin/all-in-one-seo-pack": "*",
     "wpackagist-plugin/amazon-s3-and-cloudfront": "*",
     "wpackagist-plugin/breadcrumb-navxt": "*",
+    "wpackagist-plugin/browser-shots": "*",
+    "wpackagist-plugin/classic-editor": "*",
+    "wpackagist-plugin/contact-form-7": "*",
+    "wpackagist-plugin/contact-form-7-add-confirm": "*",
     "wpackagist-plugin/custom-post-type-permalinks": "*",
     "wpackagist-plugin/custom-post-type-ui": "*",
+    "wpackagist-plugin/duplicate-post": "*",
+    "wpackagist-plugin/event-organiser": "*",
+    "wpackagist-plugin/google-apps-login": "*",
     "wpackagist-plugin/google-sitemap-generator": "*",
+    "wpackagist-plugin/instagram-feed": "*",
+    "wpackagist-plugin/intuitive-custom-post-order": "*",
     "wpackagist-plugin/loginizer": "*",
+    "wpackagist-plugin/mw-wp-form": "*",
+    "wpackagist-plugin/my-calendar": "*",
+    "wpackagist-plugin/tablepress": "*",
+    "wpackagist-plugin/user-admin-simplifier": "*",
     "wpackagist-plugin/wordpress-importer": "*",
-    "wpackagist-plugin/wp-mail-smtp": "*",
-    "wpackagist-plugin/wp-multibyte-patch": "*",
-    "wpackagist-plugin/wp-super-cache": "*",
+    "wpackagist-plugin/wp-admin-ui-customize": "*",
     "wpackagist-plugin/wp-dashboard-notes": "*",
-    "wpackagist-plugin/intuitive-custom-post-order": "*"
+    "wpackagist-plugin/wp-mail-smtp": "*",
+    "wpackagist-plugin/wp-multibyte-patch": "*"
   },
   "require-dev": {
     "squizlabs/php_codesniffer": "^3.4.2",
