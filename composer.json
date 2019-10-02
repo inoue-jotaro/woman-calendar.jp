@@ -147,6 +147,19 @@
           "reference": "master"
         }
       }
+    },
+    {
+      "type": "package",
+      "package": {
+        "name": "koodimonni-plugin-language/wp-super-cache-ja",
+        "type": "wordpress-language",
+        "version": "1.6.9",
+        "dist": {
+          "type": "zip",
+          "url": "https://downloads.wordpress.org/translation/plugin/wp-super-cache/{%version}/ja.zip",
+          "reference": "master"
+        }
+      }
     }
   ],
   "require": {
@@ -168,6 +181,7 @@
     "koodimonni-plugin-language/google-sitemap-generator-ja": "*",
     "koodimonni-plugin-language/mw-wp-form-ja": "*",
     "koodimonni-plugin-language/wordpress-importer-ja": "*",
+    "koodimonni-plugin-language/wp-super-cache-ja": "*",
     "wpackagist-plugin/ajax-calendar": "*",
     "wpackagist-plugin/all-in-one-seo-pack": "*",
     "wpackagist-plugin/amazon-s3-and-cloudfront": "*",
@@ -193,7 +207,8 @@
     "wpackagist-plugin/wp-admin-ui-customize": "*",
     "wpackagist-plugin/wp-dashboard-notes": "*",
     "wpackagist-plugin/wp-mail-smtp": "*",
-    "wpackagist-plugin/wp-multibyte-patch": "*"
+    "wpackagist-plugin/wp-multibyte-patch": "*",
+    "wpackagist-plugin/wp-super-cache": "*"
   },
   "require-dev": {
     "squizlabs/php_codesniffer": "^3.4.2",

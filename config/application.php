@@ -130,6 +130,10 @@ Config::define('AS3CF_SETTINGS', serialize([
   'object-versioning' => true,
 ]));
 
+// WP Super Cache
+define('WP_CACHE', true);
+define('WPCACHEHOME', $webroot_dir . '/app/plugins/wp-super-cache/');
+
 $env_config = __DIR__ . '/environments/' . WP_ENV . '.php';
 
 if (file_exists($env_config)) {
