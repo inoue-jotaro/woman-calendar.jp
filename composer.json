@@ -80,7 +80,8 @@
     "wpackagist-plugin/wp-mail-smtp": "*",
     "wpackagist-plugin/wp-multibyte-patch": "*",
     "wpackagist-plugin/wp-super-cache": "*",
-    "wpackagist-plugin/wp-dashboard-notes": "*"
+    "wpackagist-plugin/wp-dashboard-notes": "*",
+    "wpackagist-plugin/intuitive-custom-post-order": "*"
   },
   "require-dev": {
     "squizlabs/php_codesniffer": "^3.4.2",
