@@ -46,15 +46,7 @@ https://ja.wordpress.org/plugins/wp-multibyte-patch/ Wordpress公式配布URL内
 
 バージョン指定は `*` で最新バージョンを入れるよう指定
 
-### 4. UploadフォルダS3化プラグイン設定
-`config/environments/production.php`を編集
-```
-'object-prefix' => 'BASE/uploads/',
-  ↓
-'object-prefix' => '<ドメイン名>/uploads/',
-```
-
-### 5. githubリポジトリを作成
+### 4. githubリポジトリを作成
   * リポジトリ名 : hosting-**<ドメイン名>**
   * originを変更
   ```ShellSession
