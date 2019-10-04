@@ -6,4 +6,7 @@
  */
 require_once dirname(__DIR__) . '/vendor/autoload.php';
 require_once dirname(__DIR__) . '/config/application.php';
+// WP Super Cache
+define('WP_CACHE', true);
+define('WPCACHEHOME', $webroot_dir . '/app/plugins/wp-super-cache/');
 require_once ABSPATH . 'wp-settings.php';
