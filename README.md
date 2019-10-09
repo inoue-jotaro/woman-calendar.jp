@@ -29,10 +29,11 @@ $ git clone git@github.com:cookpad-baby/hosting-wordpress.git <ドメイン名>
 * リポジトリ名 : hosting-**<ドメイン名>**
 * public
 * origin変更とupstreamの追加
+
 ```ShellSession
-  $ git remote set-url origin <新リポジトリ>
-  $ git remote add upstream git@github.com:cookpad-baby/hosting-wordpress.git
-  $ git push
+$ git remote set-url origin <新リポジトリ>
+$ git remote add upstream git@github.com:cookpad-baby/hosting-wordpress.git
+$ git push
 ```
 
 ### 3. アップロードファイルを追加 (必要時のみ)
