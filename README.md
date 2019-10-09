@@ -70,7 +70,7 @@ https://ja.wordpress.org/plugins/wp-multibyte-patch/ Wordpress公式配布URL内
 
 バージョン指定は `*` で最新を入れるよう指定
 
-#### composer.json git更新
+#### composer.json コミット
 * プラグイン導入したら変更された `composer.json`をgitにコミットする
 ```ShellSession
 $ git commit -a -m "Add/Remove plugins."
@@ -111,6 +111,13 @@ $ git push
 
 API https://api.wordpress.org/translations/plugins/1.0/?slug=<プラグイン名> から翻訳バージョンを調べる。
 repositories.version項に記述
+
+### 5. (各産院用個別リポジトリ用) hosting-wordpress リポジトリに追従
+```ShellSession
+$ git fetch upstream
+$ git merge upstream/master
+$ git push
+```
 
 ### 導入先環境作成
 [こちらに書く](https://github.com/cookpad-baby/BabyPad-ansible)
