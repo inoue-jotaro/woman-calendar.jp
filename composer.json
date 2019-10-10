@@ -210,7 +210,9 @@
     "wpackagist-plugin/wp-dashboard-notes": "*",
     "wpackagist-plugin/wp-mail-smtp": "*",
     "wpackagist-plugin/wp-multibyte-patch": "*",
-    "wpackagist-plugin/wp-super-cache": "*"
+    "wpackagist-plugin/wp-super-cache": "*",
+    "wpackagist-plugin/taxonomy-terms-order": "*",
+    "koodimonni-plugin-language/taxonomy-terms-order-ja": "*"
   },
   "require-dev": {
     "squizlabs/php_codesniffer": "^3.4.2",
