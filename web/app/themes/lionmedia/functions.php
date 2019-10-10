@@ -2455,6 +2455,70 @@ function fit_skin_cutomizer($wp_customize){
 		'description' => 'ユーザー定義カラー05',		
 	)));
 
+// カテゴリ用ユーザー定義カラー06 セッティング
+	$wp_customize->add_setting( 'fit_skin_category-user06', array(
+		'default' => '#000',
+		'type' => 'theme_mod',
+		'sanitize_callback' => 'sanitize_hex_color',
+	));
+	// カテゴリ用ユーザー定義カラー06 コントロール
+	$wp_customize->add_control( new WP_Customize_color_Control( $wp_customize, 'fit_skin_category-user06', array(
+		'section' => 'fit_skin_section',
+		'settings' =>'fit_skin_category-user06',
+		'description' => 'ユーザー定義カラー06',		
+	)));
+
+// カテゴリ用ユーザー定義カラー07 セッティング
+	$wp_customize->add_setting( 'fit_skin_category-user07', array(
+		'default' => '#000',
+		'type' => 'theme_mod',
+		'sanitize_callback' => 'sanitize_hex_color',
+	));
+	// カテゴリ用ユーザー定義カラー07 コントロール
+	$wp_customize->add_control( new WP_Customize_color_Control( $wp_customize, 'fit_skin_category-user07', array(
+		'section' => 'fit_skin_section',
+		'settings' =>'fit_skin_category-user07',
+		'description' => 'ユーザー定義カラー07',		
+	)));
+
+// カテゴリ用ユーザー定義カラー08 セッティング
+	$wp_customize->add_setting( 'fit_skin_category-user08', array(
+		'default' => '#000',
+		'type' => 'theme_mod',
+		'sanitize_callback' => 'sanitize_hex_color',
+	));
+	// カテゴリ用ユーザー定義カラー08 コントロール
+	$wp_customize->add_control( new WP_Customize_color_Control( $wp_customize, 'fit_skin_category-user08', array(
+		'section' => 'fit_skin_section',
+		'settings' =>'fit_skin_category-user08',
+		'description' => 'ユーザー定義カラー08',		
+	)));
+
+// カテゴリ用ユーザー定義カラー09 セッティング
+	$wp_customize->add_setting( 'fit_skin_category-user09', array(
+		'default' => '#000',
+		'type' => 'theme_mod',
+		'sanitize_callback' => 'sanitize_hex_color',
+	));
+	// カテゴリ用ユーザー定義カラー09 コントロール
+	$wp_customize->add_control( new WP_Customize_color_Control( $wp_customize, 'fit_skin_category-user09', array(
+		'section' => 'fit_skin_section',
+		'settings' =>'fit_skin_category-user09',
+		'description' => 'ユーザー定義カラー09',		
+	)));
+
+// カテゴリ用ユーザー定義カラー10 セッティング
+	$wp_customize->add_setting( 'fit_skin_category-user10', array(
+		'default' => '#000',
+		'type' => 'theme_mod',
+		'sanitize_callback' => 'sanitize_hex_color',
+	));
+	// カテゴリ用ユーザー定義カラー10 コントロール
+	$wp_customize->add_control( new WP_Customize_color_Control( $wp_customize, 'fit_skin_category-user10', array(
+		'section' => 'fit_skin_section',
+		'settings' =>'fit_skin_category-user10',
+		'description' => 'ユーザー定義カラー10',		
+	)));
 }
 add_action( 'customize_register', 'fit_skin_cutomizer' );
 
@@ -2656,6 +2720,26 @@ function fit_head() {
 		$user05 = get_theme_mod('fit_skin_category-user05' );
 	}else{
 		$user05 = '#000';
+	}if(get_theme_mod('fit_skin_category-user06')) {
+		$user06 = get_theme_mod('fit_skin_category-user06' );
+	}else{
+		$user06 = '#000';
+	}if(get_theme_mod('fit_skin_category-user07')) {
+		$user07 = get_theme_mod('fit_skin_category-user07' );
+	}else{
+		$user07 = '#000';
+	}if(get_theme_mod('fit_skin_category-user08')) {
+		$user08 = get_theme_mod('fit_skin_category-user08' );
+	}else{
+		$user08 = '#000';
+	}if(get_theme_mod('fit_skin_category-user09')) {
+		$user09 = get_theme_mod('fit_skin_category-user09' );
+	}else{
+		$user09 = '#000';
+	}if(get_theme_mod('fit_skin_category-user10')) {
+		$user10 = get_theme_mod('fit_skin_category-user10' );
+	}else{
+		$user10 = '#000';
 	}
 	echo '
 .c-user01 {color:'.$user01.' !important}
@@ -2672,7 +2756,22 @@ function fit_head() {
 .hc-user04:hover {color:'.$user04.' !important}
 .c-user05 {color:'.$user05.' !important}
 .bgc-user05 {background:'.$user05.' !important}
-.hc-user05:hover {color:'.$user05.' !important}'."\n";
+.hc-user05:hover {color:'.$user05.' !important}
+.c-user06 {color:'.$user06.' !important}
+.bgc-user06 {background:'.$user06.' !important}
+.hc-user06:hover {color:'.$user06.' !important}
+.c-user07 {color:'.$user07.' !important}
+.bgc-user07 {background:'.$user07.' !important}
+.hc-user07:hover {color:'.$user07.' !important}
+.c-user08 {color:'.$user08.' !important}
+.bgc-user08 {background:'.$user08.' !important}
+.hc-user08:hover {color:'.$user08.' !important}
+.c-user09 {color:'.$user09.' !important}
+.bgc-user09 {background:'.$user09.' !important}
+.hc-user09:hover {color:'.$user09.' !important}
+.c-user10 {color:'.$user10.' !important}
+.bgc-user10 {background:'.$user10.' !important}
+.hc-user10:hover {color:'.$user10.' !important}'."\n";
 	
 	if(is_single()) {
 		if(has_post_thumbnail()) {
@@ -4341,6 +4440,11 @@ function new_category_fields($tag) {
 	$user03 = get_theme_mod('fit_skin_category-user03'); //ユーザー定義カラー03
 	$user04 = get_theme_mod('fit_skin_category-user04'); //ユーザー定義カラー04
 	$user05 = get_theme_mod('fit_skin_category-user05'); //ユーザー定義カラー05
+	$user06 = get_theme_mod('fit_skin_category-user06'); //ユーザー定義カラー06
+	$user07 = get_theme_mod('fit_skin_category-user07'); //ユーザー定義カラー07
+	$user08 = get_theme_mod('fit_skin_category-user08'); //ユーザー定義カラー08
+	$user09 = get_theme_mod('fit_skin_category-user09'); //ユーザー定義カラー09
+	$user10 = get_theme_mod('fit_skin_category-user10'); //ユーザー定義カラー10
 	$color01 = '#191919'; //ブラック
 	$color02 = '#7f7f7f'; //グレー
 	$color03 = '#3f3f3f'; //ダークグレー
@@ -4381,6 +4485,11 @@ function new_category_fields($tag) {
     <option style="color:<?php echo $user03;?>" value="-user03">■ ユーザー定義カラー03</option>
     <option style="color:<?php echo $user04;?>" value="-user04">■ ユーザー定義カラー04</option>
     <option style="color:<?php echo $user05;?>" value="-user05">■ ユーザー定義カラー05</option>
+    <option style="color:<?php echo $user06;?>" value="-user06">■ ユーザー定義カラー06</option>
+    <option style="color:<?php echo $user07;?>" value="-user07">■ ユーザー定義カラー07</option>
+    <option style="color:<?php echo $user08;?>" value="-user08">■ ユーザー定義カラー08</option>
+    <option style="color:<?php echo $user09;?>" value="-user09">■ ユーザー定義カラー09</option>
+    <option style="color:<?php echo $user10;?>" value="-user10">■ ユーザー定義カラー10</option>
     <option style="color:<?php echo $color01;?>" value="-black">■ ブラック</option>
     <option style="color:<?php echo $color02;?>" value="-gray">■ グレー</option>
     <option style="color:<?php echo $color03;?>" value="-darkgray">■ ダークグレー</option>
@@ -4440,6 +4549,11 @@ function edit_category_fields($tag) {
 	$user03 = get_theme_mod('fit_skin_category-user03'); //ユーザー定義カラー03
 	$user04 = get_theme_mod('fit_skin_category-user04'); //ユーザー定義カラー04
 	$user05 = get_theme_mod('fit_skin_category-user05'); //ユーザー定義カラー05
+	$user06 = get_theme_mod('fit_skin_category-user06'); //ユーザー定義カラー06
+	$user07 = get_theme_mod('fit_skin_category-user07'); //ユーザー定義カラー07
+	$user08 = get_theme_mod('fit_skin_category-user08'); //ユーザー定義カラー08
+	$user09 = get_theme_mod('fit_skin_category-user09'); //ユーザー定義カラー09
+	$user10 = get_theme_mod('fit_skin_category-user10'); //ユーザー定義カラー10
 	$color01 = '#191919'; //ブラック
 	$color02 = '#7f7f7f'; //グレー
 	$color03 = '#3f3f3f'; //ダークグレー
@@ -4481,6 +4595,11 @@ function edit_category_fields($tag) {
       <option style="color:<?php echo $user03;?>" value="-user03" <?php if($cat_meta[$t_id] == '-user03'){ echo "selected";} ?>>■ ユーザー定義カラー03</option>
       <option style="color:<?php echo $user04;?>" value="-user04" <?php if($cat_meta[$t_id] == '-user04'){ echo "selected";} ?>>■ ユーザー定義カラー04</option>
       <option style="color:<?php echo $user05;?>" value="-user05" <?php if($cat_meta[$t_id] == '-user05'){ echo "selected";} ?>>■ ユーザー定義カラー05</option>
+      <option style="color:<?php echo $user06;?>" value="-user06" <?php if($cat_meta[$t_id] == '-user06'){ echo "selected";} ?>>■ ユーザー定義カラー06</option>
+      <option style="color:<?php echo $user07;?>" value="-user07" <?php if($cat_meta[$t_id] == '-user07'){ echo "selected";} ?>>■ ユーザー定義カラー07</option>
+      <option style="color:<?php echo $user08;?>" value="-user08" <?php if($cat_meta[$t_id] == '-user08'){ echo "selected";} ?>>■ ユーザー定義カラー08</option>
+      <option style="color:<?php echo $user09;?>" value="-user09" <?php if($cat_meta[$t_id] == '-user09'){ echo "selected";} ?>>■ ユーザー定義カラー09</option>
+      <option style="color:<?php echo $user10;?>" value="-user10" <?php if($cat_meta[$t_id] == '-user10'){ echo "selected";} ?>>■ ユーザー定義カラー10</option>
       <option style="color:<?php echo $color01;?>" value="-black" <?php if($cat_meta[$t_id] == '-black'){ echo "selected";} ?>>■ ブラック</option>
       <option style="color:<?php echo $color02;?>" value="-gray" <?php if($cat_meta[$t_id] == '-gray'){ echo "selected";} ?>>■ グレー</option>
       <option style="color:<?php echo $color03;?>" value="-darkgray" <?php if($cat_meta[$t_id] == '-darkgray'){ echo "selected";} ?>>■ ダークグレー</option>
@@ -5310,7 +5429,7 @@ function fit_posts_pagination( $args = array() ) {
  
     if ( $GLOBALS['wp_query']->max_num_pages > 1 ) {
         $args = wp_parse_args( $args, array(
-            'mid_size'           => 0,
+            'mid_size'           => 2,
             'prev_text'          => 'PREV',
             'next_text'          => 'NEXT',
         ) );
