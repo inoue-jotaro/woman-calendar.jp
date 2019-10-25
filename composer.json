@@ -173,6 +173,18 @@
           "reference": "master"
         }
       }
+    },
+    {
+      "type": "package",
+      "package": {
+        "name": "koodimonni-plugin-language/all-in-one-seo-pack-ja",
+        "type": "wordpress-language",
+        "version": "3.1.1",
+        "dist": {
+          "type": "zip",
+          "url": "https://downloads.wordpress.org/translation/plugin/all-in-one-seo-pack/{%version}/ja.zip"
+        }
+      }
     }
   ],
   "require": {
@@ -186,6 +198,7 @@
     "advanced-custom-fields/advanced-custom-fields-pro": "*",
     "cookpad-baby/simple-seo-pack": "dev-master",
     "koodimonni-language/core-ja": "*",
+    "koodimonni-plugin-language/all-in-one-seo-pack-ja": "*",
     "koodimonni-plugin-language/breadcrumb-navxt-ja": "*",
     "koodimonni-plugin-language/classic-editor-ja": "*",
     "koodimonni-plugin-language/contact-form-7-ja": "*",
