@@ -120,4 +120,4 @@ $ git push
 ```
 
 ### 導入先環境作成
-[こちらに書く](https://github.com/cookpad-baby/BabyPad-ansible)
+[こちらに書く](https://github.com/cookpad-baby/BabyPad-ansible/wiki/Create-Wordpress-Host)
