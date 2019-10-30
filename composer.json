@@ -220,8 +220,11 @@
     "wpackagist-plugin/intuitive-custom-post-order": "*",
     "wpackagist-plugin/loginizer": "*",
     "wpackagist-plugin/mw-wp-form": "*",
+<<<<<<< HEAD
     "wpackagist-plugin/taxonomy-terms-order": "*",
     "wpackagist-plugin/user-admin-simplifier": "*",
+=======
+>>>>>>> upstream/master
     "wpackagist-plugin/wordpress-importer": "*",
     "wpackagist-plugin/wp-admin-ui-customize": "*",
     "wpackagist-plugin/wp-dashboard-notes": "*",
