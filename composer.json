@@ -216,6 +216,7 @@
     "wpackagist-plugin/custom-post-type-permalinks": "*",
     "wpackagist-plugin/custom-post-type-ui": "*",
     "wpackagist-plugin/duplicate-post": "*",
+    "wpackagist-plugin/google-apps-login": "*",
     "wpackagist-plugin/google-sitemap-generator": "*",
     "wpackagist-plugin/intuitive-custom-post-order": "*",
     "wpackagist-plugin/loginizer": "*",
