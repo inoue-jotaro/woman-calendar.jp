@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "12443c21f32b9c6c19837104cf641a4e",
+    "content-hash": "7a3f48c0af9b2c7a02b73a6b9e9c2de0",
     "packages": [
         {
             "name": "advanced-custom-fields/advanced-custom-fields-pro",
@@ -933,6 +933,24 @@
             },
             "type": "wordpress-plugin",
             "homepage": "https://wordpress.org/plugins/duplicate-post/"
+        },
+        {
+            "name": "wpackagist-plugin/google-apps-login",
+            "version": "3.2",
+            "source": {
+                "type": "svn",
+                "url": "https://plugins.svn.wordpress.org/google-apps-login/",
+                "reference": "tags/3.2"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/plugin/google-apps-login.3.2.zip"
+            },
+            "require": {
+                "composer/installers": "~1.0"
+            },
+            "type": "wordpress-plugin",
+            "homepage": "https://wordpress.org/plugins/google-apps-login/"
         },
         {
             "name": "wpackagist-plugin/google-sitemap-generator",
