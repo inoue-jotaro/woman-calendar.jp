@@ -223,8 +223,6 @@
     "wpackagist-plugin/intuitive-custom-post-order": "*",
     "wpackagist-plugin/loginizer": "*",
     "wpackagist-plugin/mw-wp-form": "*",
-    "wpackagist-plugin/my-calendar": "*",
-    "wpackagist-plugin/tablepress": "*",
     "wpackagist-plugin/taxonomy-terms-order": "*",
     "wpackagist-plugin/user-admin-simplifier": "*",
     "wpackagist-plugin/wordpress-importer": "*",
