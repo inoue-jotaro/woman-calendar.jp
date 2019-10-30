@@ -224,7 +224,6 @@
     "wpackagist-plugin/loginizer": "*",
     "wpackagist-plugin/mw-wp-form": "*",
     "wpackagist-plugin/my-calendar": "*",
-    "wpackagist-plugin/tablepress": "*",
     "wpackagist-plugin/user-admin-simplifier": "*",
     "wpackagist-plugin/wordpress-importer": "*",
     "wpackagist-plugin/wp-admin-ui-customize": "*",
