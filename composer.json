@@ -215,6 +215,7 @@
     "wpackagist-plugin/contact-form-7-add-confirm": "*",
     "wpackagist-plugin/custom-post-type-permalinks": "*",
     "wpackagist-plugin/custom-post-type-ui": "*",
+    "wpackagist-plugin/duplicate-post": "*",
     "wpackagist-plugin/google-sitemap-generator": "*",
     "wpackagist-plugin/intuitive-custom-post-order": "*",
     "wpackagist-plugin/loginizer": "*",
