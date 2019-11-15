@@ -220,7 +220,6 @@
     "wpackagist-plugin/loginizer": "*",
     "wpackagist-plugin/mw-wp-form": "*",
     "wpackagist-plugin/wordpress-importer": "*",
-    "wpackagist-plugin/wp-admin-ui-customize": "*",
     "wpackagist-plugin/wp-dashboard-notes": "*",
     "wpackagist-plugin/wp-mail-smtp": "*",
     "wpackagist-plugin/wp-multibyte-patch": "*",
