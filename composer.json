@@ -185,6 +185,18 @@
           "url": "https://downloads.wordpress.org/translation/plugin/all-in-one-seo-pack/{%version}/ja.zip"
         }
       }
+    },
+    {
+      "type": "package",
+      "package": {
+        "name": "koodimonni-plugin-language/wp-user-avatar-ja",
+        "type": "wordpress-language",
+        "version": "2.2.4",
+        "dist": {
+          "type": "zip",
+          "url": "https://downloads.wordpress.org/translation/plugin/wp-user-avatar/{%version}/ja.zip"
+        }
+      }
     }
   ],
   "require": {
@@ -208,6 +220,7 @@
     "koodimonni-plugin-language/mw-wp-form-ja": "*",
     "koodimonni-plugin-language/wordpress-importer-ja": "*",
     "koodimonni-plugin-language/wp-super-cache-ja": "*",
+    "koodimonni-plugin-language/wp-user-avatar-ja": "*",
     "wpackagist-plugin/amazon-s3-and-cloudfront": "*",
     "wpackagist-plugin/breadcrumb-navxt": "*",
     "wpackagist-plugin/classic-editor": "*",
@@ -226,7 +239,8 @@
     "wpackagist-plugin/wp-dashboard-notes": "*",
     "wpackagist-plugin/wp-mail-smtp": "*",
     "wpackagist-plugin/wp-multibyte-patch": "*",
-    "wpackagist-plugin/wp-super-cache": "*"
+    "wpackagist-plugin/wp-super-cache": "*",
+    "wpackagist-plugin/wp-user-avatar": "*"
   },
   "require-dev": {
     "squizlabs/php_codesniffer": "^3.4.2",
