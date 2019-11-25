@@ -12,8 +12,8 @@
 ## 構築に必要なもの
 * macOS
 * Git
-* Composer 以下で入れるのが楽
-  * https://brew.sh/index_ja HomeBrew
+* Composer
+  * [HomeBrew](https://brew.sh/index_ja)
   * `brew install composer`
 
 ## 構築
@@ -36,7 +36,7 @@ $ git remote add upstream git@github.com:cookpad-baby/hosting-wordpress.git
 $ git push
 ```
 
-### 3. アップロードファイルを追加 (必要時のみ)
+### 3. アップロードファイルを追加 (旧Wordpressからの移行時のみ)
 `web/app/uploads` にファイル・フォルダを追加
 
 ```ShellSession
@@ -46,7 +46,6 @@ $ git push
 ```
 
 ### 4. プラグイン導入 (必要時)
-※hosting-wordpressにはこれまで使った全プラグイン導入するように設定してあるので、これを弄ることはあまりないはず
 
 #### composerを実行できるようにする
 `.env.example` をコピーし `.env` ファイルに環境を記述
@@ -55,25 +54,27 @@ $ git push
 * `ACF_KEY` : Advanced Custom Fields のライセンスコード
 
 #### composerで導入
-以下コマンド、または`composer.json`直接弄ってもよい
+
 ```ShellSession
 # 追加
 $ composer require wpackagist-plugin/classic-editor:*
 
 # 削除
-$ composer remove wpackagist-plugin/classic-editor:*
+$ composer remove wpackagist-plugin/classic-editor
 ```
 
-Wordpress公式で配布されているものならwpackagistにホストされてるはず
+Wordpress公式で配布されているものならwpackagistにホストされてる
 
-https://ja.wordpress.org/plugins/wp-multibyte-patch/ Wordpress公式配布URL内に書かれているプラグイン名を元に https://wpackagist.org/ で調べる。
+https://ja.wordpress.org/plugins/`wp-multibyte-patch`/
+Wordpress公式配布URL内に書かれているプラグイン名を元に https://wpackagist.org/ で調べる。
 
 バージョン指定は `*` で最新を入れるよう指定
 
 #### composer.json コミット
-* プラグイン導入したら変更された `composer.json`をgitにコミットする
+* プラグインを導入したら更新された `composer.json`, `composer.lock`をgitにコミットする
 ```ShellSession
-$ git commit -a -m "Add/Remove plugins."
+$ git add composer.json composer.lock
+$ git commit -m "Add/Remove plugin hogehoge."
 $ git push
 ```
 
