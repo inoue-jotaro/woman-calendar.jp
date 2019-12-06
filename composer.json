@@ -232,6 +232,7 @@
     "wpackagist-plugin/google-apps-login": "*",
     "wpackagist-plugin/google-sitemap-generator": "*",
     "wpackagist-plugin/intuitive-custom-post-order": "*",
+    "wpackagist-plugin/invisible-recaptcha": "*",
     "wpackagist-plugin/loginizer": "*",
     "wpackagist-plugin/mw-wp-form": "*",
     "wpackagist-plugin/taxonomy-terms-order": "*",
