@@ -38,7 +38,7 @@ $ git push
 
 ### 3. composer設定
 
-.envファイルを生成する。
+`.env`を生成する。
 
 ```ShellSession
 $ vi .env
@@ -122,7 +122,10 @@ url内のバージョンは `{%version}` に置換する。
 API https://api.wordpress.org/translations/plugins/1.0/?slug=<プラグイン名> から翻訳バージョンを調べる。
 repositories.package.version項に記述
 
-### 3. アップロードファイルを追加する (旧Wordpressからの移行時のみ)
+### アップロードファイルを追加する
+
+※旧Wordpressからの移行時に実施
+
 `web/app/uploads` にファイル・フォルダを追加
 
 ```ShellSession
@@ -132,6 +135,7 @@ $ git push
 ```
 
 ### (各産院用個別リポジトリ用) hosting-wordpress リポジトリのアップデートに追従する
+
 ```ShellSession
 $ git fetch upstream
 $ git merge upstream/master
