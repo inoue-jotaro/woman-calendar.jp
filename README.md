@@ -36,24 +36,34 @@ $ git remote add upstream git@github.com:cookpad-baby/hosting-wordpress.git
 $ git push
 ```
 
-### 3. アップロードファイルを追加 (旧Wordpressからの移行時のみ)
-`web/app/uploads` にファイル・フォルダを追加
+### 3. composer設定
+
+`.env`を生成する。
 
 ```ShellSession
-$ git add -f web/app/uploads/
-$ git commit -m "Add upload files."
+$ vi .env
+====
+ACF_KEY: 〜〜〜〜
+
+```
+
+```ShellSession
+$ composer install
+$ git add composer.lock
+$ git commit -m "Composer update."
 $ git push
 ```
 
-### 4. プラグイン導入 (必要時)
+### 4. 導入先環境作成・デプロイ
+[こちらに書く](https://github.com/cookpad-baby/BabyPad-ansible/wiki/Create-Wordpress-Host)
 
-#### composerを実行できるようにする
-`.env.example` をコピーし `.env` ファイルに環境を記述
+----
 
-プラグインの導入するだけなら以下だけ追記すればいい
-* `ACF_KEY` : Advanced Custom Fields のライセンスコード
+# その他
 
-#### composerで導入
+### プラグイン追加・変更
+
+#### composer操作
 
 ```ShellSession
 # 追加
@@ -112,12 +122,22 @@ url内のバージョンは `{%version}` に置換する。
 API https://api.wordpress.org/translations/plugins/1.0/?slug=<プラグイン名> から翻訳バージョンを調べる。
 repositories.package.version項に記述
 
-### 5. (各産院用個別リポジトリ用) hosting-wordpress リポジトリのアップデートに追従する
+### アップロードファイルを追加する
+
+※旧Wordpressからの移行時に実施
+
+`web/app/uploads` にファイル・フォルダを追加
+
+```ShellSession
+$ git add -f web/app/uploads/
+$ git commit -m "Add upload files."
+$ git push
+```
+
+### (各産院用個別リポジトリ用) hosting-wordpress リポジトリのアップデートに追従する
+
 ```ShellSession
 $ git fetch upstream
 $ git merge upstream/master
 $ git push
 ```
-
-### 6. 導入先環境作成・デプロイ
-[こちらに書く](https://github.com/cookpad-baby/BabyPad-ansible/wiki/Create-Wordpress-Host)
