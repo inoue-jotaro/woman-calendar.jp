@@ -166,7 +166,7 @@
       "package": {
         "name": "koodimonni-plugin-language/taxonomy-terms-order-ja",
         "type": "wordpress-language",
-        "version": "1.5.7",
+        "version": "1.5.7.1",
         "dist": {
           "type": "zip",
           "url": "https://downloads.wordpress.org/translation/plugin/taxonomy-terms-order/{%version}/ja.zip",
