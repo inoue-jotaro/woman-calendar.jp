@@ -46,7 +46,7 @@
       "type": "package",
       "package": {
         "name": "advanced-custom-fields/advanced-custom-fields-pro",
-        "version": "5.8.7",
+        "version": "5.8.8",
         "type": "wordpress-plugin",
         "dist": {
           "type": "zip",
@@ -88,7 +88,7 @@
       "package": {
         "name": "koodimonni-plugin-language/contact-form-7-ja",
         "type": "wordpress-language",
-        "version": "5.1.6",
+        "version": "5.1.7",
         "dist": {
           "type": "zip",
           "url": "https://downloads.wordpress.org/translation/plugin/contact-form-7/{%version}/ja.zip",
@@ -179,7 +179,7 @@
       "package": {
         "name": "koodimonni-plugin-language/all-in-one-seo-pack-ja",
         "type": "wordpress-language",
-        "version": "3.3.4",
+        "version": "3.3.5",
         "dist": {
           "type": "zip",
           "url": "https://downloads.wordpress.org/translation/plugin/all-in-one-seo-pack/{%version}/ja.zip"
@@ -202,9 +202,9 @@
   "require": {
     "php": ">=7.1",
     "composer/installers": "^1.7",
-    "vlucas/phpdotenv": "^3.4.0",
+    "vlucas/phpdotenv": "^3.6.0",
     "oscarotero/env": "^1.2.0",
-    "roots/wordpress": "^5.2.2",
+    "roots/wordpress": "^5.3",
     "roots/wp-config": "1.0.0",
     "roots/wp-password-bcrypt": "1.0.0",
     "advanced-custom-fields/advanced-custom-fields-pro": "*",
