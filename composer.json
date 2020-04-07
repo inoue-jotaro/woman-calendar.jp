@@ -185,6 +185,30 @@
           "url": "https://downloads.wordpress.org/translation/plugin/all-in-one-seo-pack/{%version}/ja.zip"
         }
       }
+    },
+    {
+      "type": "package",
+      "package": {
+        "name": "koodimonni-plugin-language/my-calendar-ja",
+        "type": "wordpress-language",
+        "version": "2.5.17",
+        "dist": {
+          "type": "zip",
+          "url": "https://downloads.wordpress.org/translation/plugin/my-calendar/{%version}/ja.zip"
+        }
+      }
+    },
+    {
+      "type": "package",
+      "package": {
+        "name": "koodimonni-plugin-language/tablepress-ja",
+        "type": "wordpress-language",
+        "version": "1.9.2",
+        "dist": {
+          "type": "zip",
+          "url": "https://downloads.wordpress.org/translation/plugin/tablepress/{%version}/ja.zip"
+        }
+      }
     }
   ],
   "require": {
@@ -206,6 +230,8 @@
     "koodimonni-plugin-language/duplicate-post-ja": "*",
     "koodimonni-plugin-language/google-sitemap-generator-ja": "*",
     "koodimonni-plugin-language/mw-wp-form-ja": "*",
+    "koodimonni-plugin-language/my-calendar-ja": "*",
+    "koodimonni-plugin-language/tablepress-ja": "*",
     "koodimonni-plugin-language/wordpress-importer-ja": "*",
     "koodimonni-plugin-language/wp-super-cache-ja": "*",
     "wpackagist-plugin/adminimize": "*",
@@ -221,6 +247,8 @@
     "wpackagist-plugin/intuitive-custom-post-order": "*",
     "wpackagist-plugin/loginizer": "*",
     "wpackagist-plugin/mw-wp-form": "*",
+    "wpackagist-plugin/my-calendar": "*",
+    "wpackagist-plugin/tablepress": "*",
     "wpackagist-plugin/wordpress-importer": "*",
     "wpackagist-plugin/wp-dashboard-notes": "*",
     "wpackagist-plugin/wp-mail-smtp": "*",
