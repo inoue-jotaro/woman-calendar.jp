@@ -86,19 +86,6 @@
     {
       "type": "package",
       "package": {
-        "name": "koodimonni-plugin-language/contact-form-7-ja",
-        "type": "wordpress-language",
-        "version": "5.1.7",
-        "dist": {
-          "type": "zip",
-          "url": "https://downloads.wordpress.org/translation/plugin/contact-form-7/{%version}/ja.zip",
-          "reference": "master"
-        }
-      }
-    },
-    {
-      "type": "package",
-      "package": {
         "name": "koodimonni-plugin-language/custom-post-type-ui-ja",
         "type": "wordpress-language",
         "version": "1.5.8",
@@ -225,7 +212,6 @@
     "koodimonni-plugin-language/all-in-one-seo-pack-ja": "*",
     "koodimonni-plugin-language/breadcrumb-navxt-ja": "*",
     "koodimonni-plugin-language/classic-editor-ja": "*",
-    "koodimonni-plugin-language/contact-form-7-ja": "*",
     "koodimonni-plugin-language/custom-post-type-ui-ja": "*",
     "koodimonni-plugin-language/duplicate-post-ja": "*",
     "koodimonni-plugin-language/google-sitemap-generator-ja": "*",
@@ -238,8 +224,6 @@
     "wpackagist-plugin/amazon-s3-and-cloudfront": "*",
     "wpackagist-plugin/breadcrumb-navxt": "*",
     "wpackagist-plugin/classic-editor": "*",
-    "wpackagist-plugin/contact-form-7": "*",
-    "wpackagist-plugin/contact-form-7-add-confirm": "*",
     "wpackagist-plugin/custom-post-type-permalinks": "*",
     "wpackagist-plugin/custom-post-type-ui": "*",
     "wpackagist-plugin/duplicate-post": "*",
