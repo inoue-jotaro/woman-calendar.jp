@@ -208,6 +208,18 @@
           "url": "https://downloads.wordpress.org/translation/plugin/tablepress/{%version}/ja.zip"
         }
       }
+    },
+    {
+      "type": "package",
+      "package": {
+        "name": "koodimonni-plugin-language/wp-fastest-cache-ja",
+        "type": "wordpress-language",
+        "version": "0.9.0.5",
+        "dist": {
+          "type": "zip",
+          "url": "https://downloads.wordpress.org/translation/plugin/wp-fastest-cache/{%version}/ja.zip"
+        }
+      }
     }
   ],
   "require": {
@@ -231,6 +243,7 @@
     "koodimonni-plugin-language/my-calendar-ja": "*",
     "koodimonni-plugin-language/tablepress-ja": "*",
     "koodimonni-plugin-language/wordpress-importer-ja": "*",
+    "koodimonni-plugin-language/wp-fastest-cache-ja": "*",
     "koodimonni-plugin-language/wp-super-cache-ja": "*",
     "koodimonni-plugin-language/wp-user-avatar-ja": "*",
     "wpackagist-plugin/adminimize": "*",
@@ -253,6 +266,7 @@
     "wpackagist-plugin/wp-dashboard-notes": "*",
     "wpackagist-plugin/wp-mail-smtp": "*",
     "wpackagist-plugin/wp-multibyte-patch": "*",
+    "wpackagist-plugin/wp-fastest-cache": "*",
     "wpackagist-plugin/wp-super-cache": "*",
     "wpackagist-plugin/wp-user-avatar": "*"
   },
