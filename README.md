@@ -48,7 +48,7 @@ ACF_KEY: 〜〜〜〜
 ```
 
 ```ShellSession
-$ composer install
+$ composer install --no-dev
 $ git add composer.lock
 $ git commit -m "Composer update."
 $ git push
