@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "b3e5e04b3bb813211a4da731c1d0e3ed",
+    "content-hash": "4cbadbca54d541d823c609619b9b0e76",
     "packages": [
         {
             "name": "advanced-custom-fields/advanced-custom-fields-pro",
@@ -359,6 +359,15 @@
                 "ja",
                 "wordpress-importer"
             ]
+        },
+        {
+            "name": "koodimonni-plugin-language/wp-fastest-cache-ja",
+            "version": "0.9.0.5",
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/translation/plugin/wp-fastest-cache/0.9.0.5/ja.zip"
+            },
+            "type": "wordpress-language"
         },
         {
             "name": "koodimonni-plugin-language/wp-super-cache-ja",
@@ -1176,6 +1185,24 @@
             },
             "type": "wordpress-plugin",
             "homepage": "https://wordpress.org/plugins/wp-dashboard-notes/"
+        },
+        {
+            "name": "wpackagist-plugin/wp-fastest-cache",
+            "version": "0.9.0.5",
+            "source": {
+                "type": "svn",
+                "url": "https://plugins.svn.wordpress.org/wp-fastest-cache/",
+                "reference": "tags/0.9.0.5"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/plugin/wp-fastest-cache.0.9.0.5.zip"
+            },
+            "require": {
+                "composer/installers": "~1.0"
+            },
+            "type": "wordpress-plugin",
+            "homepage": "https://wordpress.org/plugins/wp-fastest-cache/"
         },
         {
             "name": "wpackagist-plugin/wp-mail-smtp",
