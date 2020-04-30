@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "3366cbc0cbf8a3c666930708bf439fa0",
+    "content-hash": "b3e5e04b3bb813211a4da731c1d0e3ed",
     "packages": [
         {
             "name": "advanced-custom-fields/advanced-custom-fields-pro",
@@ -256,10 +256,10 @@
         },
         {
             "name": "koodimonni-plugin-language/all-in-one-seo-pack-ja",
-            "version": "3.3.5",
+            "version": "3.4.3",
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/translation/plugin/all-in-one-seo-pack/3.3.5/ja.zip"
+                "url": "https://downloads.wordpress.org/translation/plugin/all-in-one-seo-pack/3.4.3/ja.zip"
             },
             "type": "wordpress-language"
         },
@@ -285,10 +285,10 @@
         },
         {
             "name": "koodimonni-plugin-language/custom-post-type-ui-ja",
-            "version": "1.5.8",
+            "version": "1.7.4",
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/translation/plugin/custom-post-type-ui/1.5.8/ja.zip",
+                "url": "https://downloads.wordpress.org/translation/plugin/custom-post-type-ui/1.7.4/ja.zip",
                 "reference": "master"
             },
             "type": "wordpress-language"
@@ -325,19 +325,19 @@
         },
         {
             "name": "koodimonni-plugin-language/my-calendar-ja",
-            "version": "2.5.17",
+            "version": "3.1.18",
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/translation/plugin/my-calendar/2.5.17/ja.zip"
+                "url": "https://downloads.wordpress.org/translation/plugin/my-calendar/3.1.18/ja.zip"
             },
             "type": "wordpress-language"
         },
         {
             "name": "koodimonni-plugin-language/tablepress-ja",
-            "version": "1.9.2",
+            "version": "1.11",
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/translation/plugin/tablepress/1.9.2/ja.zip"
+                "url": "https://downloads.wordpress.org/translation/plugin/tablepress/1.11/ja.zip"
             },
             "type": "wordpress-language"
         },
@@ -362,10 +362,10 @@
         },
         {
             "name": "koodimonni-plugin-language/wp-super-cache-ja",
-            "version": "1.6.9",
+            "version": "1.7.1",
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/translation/plugin/wp-super-cache/1.6.9/ja.zip",
+                "url": "https://downloads.wordpress.org/translation/plugin/wp-super-cache/1.7.1/ja.zip",
                 "reference": "master"
             },
             "type": "wordpress-language"
@@ -522,16 +522,16 @@
         },
         {
             "name": "roots/wordpress",
-            "version": "5.4",
+            "version": "5.4.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/WordPress/WordPress.git",
-                "reference": "5.4"
+                "reference": "5.4.1"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/WordPress/WordPress/zipball/5.4",
-                "reference": "5.4"
+                "url": "https://api.github.com/repos/WordPress/WordPress/zipball/5.4.1",
+                "reference": "5.4.1"
             },
             "require": {
                 "php": ">=5.3.2",
@@ -561,7 +561,7 @@
                     "type": "patreon"
                 }
             ],
-            "time": "2020-03-31T20:06:05+00:00"
+            "time": "2020-04-29T18:50:02+00:00"
         },
         {
             "name": "roots/wordpress-core-installer",
@@ -981,7 +981,7 @@
         },
         {
             "name": "wpackagist-plugin/google-apps-login",
-            "version": "3.3",
+            "version": "3.4.1",
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/google-apps-login/",
@@ -989,7 +989,7 @@
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/google-apps-login.zip?timestamp=1576238949"
+                "url": "https://downloads.wordpress.org/plugin/google-apps-login.zip?timestamp=1587968176"
             },
             "require": {
                 "composer/installers": "~1.0"
@@ -1179,15 +1179,15 @@
         },
         {
             "name": "wpackagist-plugin/wp-mail-smtp",
-            "version": "1.9.0",
+            "version": "2.0.0",
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/wp-mail-smtp/",
-                "reference": "tags/1.9.0"
+                "reference": "tags/2.0.0"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/wp-mail-smtp.1.9.0.zip"
+                "url": "https://downloads.wordpress.org/plugin/wp-mail-smtp.2.0.0.zip"
             },
             "require": {
                 "composer/installers": "~1.0"
@@ -1233,15 +1233,15 @@
         },
         {
             "name": "wpackagist-plugin/wp-user-avatar",
-            "version": "2.2.5",
+            "version": "2.2.6",
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/wp-user-avatar/",
-                "reference": "trunk"
+                "reference": "tags/2.2.6"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/wp-user-avatar.zip?timestamp=1582179444"
+                "url": "https://downloads.wordpress.org/plugin/wp-user-avatar.2.2.6.zip"
             },
             "require": {
                 "composer/installers": "~1.0"
@@ -1257,12 +1257,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/Roave/SecurityAdvisories.git",
-                "reference": "09afa996c68c18f49e6487b06adcb2ef27da61fa"
+                "reference": "81541a731da2f245a08666de73169cb5da7ac573"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/Roave/SecurityAdvisories/zipball/09afa996c68c18f49e6487b06adcb2ef27da61fa",
-                "reference": "09afa996c68c18f49e6487b06adcb2ef27da61fa",
+                "url": "https://api.github.com/repos/Roave/SecurityAdvisories/zipball/81541a731da2f245a08666de73169cb5da7ac573",
+                "reference": "81541a731da2f245a08666de73169cb5da7ac573",
                 "shasum": ""
             },
             "conflict": {
@@ -1308,6 +1308,8 @@
                 "endroid/qr-code-bundle": "<3.4.2",
                 "enshrined/svg-sanitize": "<0.13.1",
                 "erusev/parsedown": "<1.7.2",
+                "ezsystems/demobundle": ">=5.4,<5.4.6.1",
+                "ezsystems/ezdemo-ls-extension": ">=5.4,<5.4.2.1",
                 "ezsystems/ezfind-ls": ">=5.3,<5.3.6.1|>=5.4,<5.4.11.1|>=2017.12,<2017.12.0.1",
                 "ezsystems/ezplatform": ">=1.7,<1.7.9.1|>=1.13,<1.13.5.1|>=2.5,<2.5.4",
                 "ezsystems/ezplatform-admin-ui": ">=1.3,<1.3.5|>=1.4,<1.4.6",
@@ -1396,7 +1398,7 @@
                 "silverstripe/userforms": "<3",
                 "simple-updates/phpwhois": "<=1",
                 "simplesamlphp/saml2": "<1.10.6|>=2,<2.3.8|>=3,<3.1.4",
-                "simplesamlphp/simplesamlphp": "<1.18.4",
+                "simplesamlphp/simplesamlphp": "<1.18.6",
                 "simplesamlphp/simplesamlphp-module-infocard": "<1.0.1",
                 "simplito/elliptic-php": "<1.0.6",
                 "slim/slim": "<2.6",
@@ -1513,7 +1515,17 @@
                 }
             ],
             "description": "Prevents installation of composer packages with known security vulnerabilities: no API, simply require it",
-            "time": "2020-04-15T04:56:51+00:00"
+            "funding": [
+                {
+                    "url": "https://github.com/Ocramius",
+                    "type": "github"
+                },
+                {
+                    "url": "https://tidelift.com/funding/github/packagist/roave/security-advisories",
+                    "type": "tidelift"
+                }
+            ],
+            "time": "2020-04-23T00:01:30+00:00"
         },
         {
             "name": "squizlabs/php_codesniffer",
