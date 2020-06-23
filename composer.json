@@ -46,7 +46,7 @@
       "type": "package",
       "package": {
         "name": "advanced-custom-fields/advanced-custom-fields-pro",
-        "version": "5.8.11",
+        "version": "5.8.12",
         "type": "wordpress-plugin",
         "dist": {
           "type": "zip",
@@ -62,7 +62,7 @@
       "package": {
         "name": "koodimonni-plugin-language/breadcrumb-navxt-ja",
         "type": "wordpress-language",
-        "version": "6.4.0",
+        "version": "6.5.0",
         "dist": {
           "type": "zip",
           "url": "https://downloads.wordpress.org/translation/plugin/breadcrumb-navxt/{%version}/ja.zip",
@@ -177,7 +177,7 @@
       "package": {
         "name": "koodimonni-plugin-language/my-calendar-ja",
         "type": "wordpress-language",
-        "version": "3.1.18",
+        "version": "3.2.0",
         "dist": {
           "type": "zip",
           "url": "https://downloads.wordpress.org/translation/plugin/my-calendar/{%version}/ja.zip"
@@ -201,7 +201,7 @@
       "package": {
         "name": "koodimonni-plugin-language/wp-fastest-cache-ja",
         "type": "wordpress-language",
-        "version": "0.9.0.6",
+        "version": "0.9.0.7",
         "dist": {
           "type": "zip",
           "url": "https://downloads.wordpress.org/translation/plugin/wp-fastest-cache/{%version}/ja.zip"
