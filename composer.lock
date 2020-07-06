@@ -4,14 +4,14 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "637c59966a4b9a75fc6437cd62d8997c",
+    "content-hash": "e1ef154987e070b7f664c90a25fc52f1",
     "packages": [
         {
             "name": "advanced-custom-fields/advanced-custom-fields-pro",
-            "version": "5.8.11",
+            "version": "5.8.12",
             "dist": {
                 "type": "zip",
-                "url": "https://connect.advancedcustomfields.com/index.php?a=download&p=pro&k={%ACF_KEY}&t=5.8.11"
+                "url": "https://connect.advancedcustomfields.com/index.php?a=download&p=pro&k={%ACF_KEY}&t=5.8.12"
             },
             "require": {
                 "ffraenz/private-composer-installer": "^2.0"
@@ -265,10 +265,10 @@
         },
         {
             "name": "koodimonni-plugin-language/breadcrumb-navxt-ja",
-            "version": "6.4.0",
+            "version": "6.5.0",
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/translation/plugin/breadcrumb-navxt/6.4.0/ja.zip",
+                "url": "https://downloads.wordpress.org/translation/plugin/breadcrumb-navxt/6.5.0/ja.zip",
                 "reference": "master"
             },
             "type": "wordpress-language"
@@ -325,10 +325,10 @@
         },
         {
             "name": "koodimonni-plugin-language/my-calendar-ja",
-            "version": "3.1.18",
+            "version": "3.2.1",
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/translation/plugin/my-calendar/3.1.18/ja.zip"
+                "url": "https://downloads.wordpress.org/translation/plugin/my-calendar/3.2.1/ja.zip"
             },
             "type": "wordpress-language"
         },
@@ -362,10 +362,10 @@
         },
         {
             "name": "koodimonni-plugin-language/wp-fastest-cache-ja",
-            "version": "0.9.0.6",
+            "version": "0.9.0.7",
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/translation/plugin/wp-fastest-cache/0.9.0.6/ja.zip"
+                "url": "https://downloads.wordpress.org/translation/plugin/wp-fastest-cache/0.9.0.7/ja.zip"
             },
             "type": "wordpress-language"
         },
@@ -1080,15 +1080,15 @@
         },
         {
             "name": "wpackagist-plugin/loginizer",
-            "version": "1.4.4",
+            "version": "1.4.5",
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/loginizer/",
-                "reference": "tags/1.4.4"
+                "reference": "tags/1.4.5"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/loginizer.1.4.4.zip"
+                "url": "https://downloads.wordpress.org/plugin/loginizer.1.4.5.zip"
             },
             "require": {
                 "composer/installers": "~1.0"
@@ -1116,15 +1116,15 @@
         },
         {
             "name": "wpackagist-plugin/my-calendar",
-            "version": "3.2.0",
+            "version": "3.2.1",
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/my-calendar/",
-                "reference": "tags/3.2.0"
+                "reference": "tags/3.2.1"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/my-calendar.3.2.0.zip"
+                "url": "https://downloads.wordpress.org/plugin/my-calendar.3.2.1.zip"
             },
             "require": {
                 "composer/installers": "~1.0"
@@ -1284,12 +1284,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/Roave/SecurityAdvisories.git",
-                "reference": "6d2e5ab854782830911ddd33b7d4649b9f18c10f"
+                "reference": "57353ec1a34527a2dbbd3c0fb9418ffc008c6f60"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/Roave/SecurityAdvisories/zipball/6d2e5ab854782830911ddd33b7d4649b9f18c10f",
-                "reference": "6d2e5ab854782830911ddd33b7d4649b9f18c10f",
+                "url": "https://api.github.com/repos/Roave/SecurityAdvisories/zipball/57353ec1a34527a2dbbd3c0fb9418ffc008c6f60",
+                "reference": "57353ec1a34527a2dbbd3c0fb9418ffc008c6f60",
                 "shasum": ""
             },
             "conflict": {
@@ -1383,8 +1383,9 @@
                 "magento/product-community-edition": ">=2,<2.2.10|>=2.3,<2.3.2-p.2",
                 "monolog/monolog": ">=1.8,<1.12",
                 "namshi/jose": "<2.2",
+                "nystudio107/craft-seomatic": "<3.3",
                 "nzo/url-encryptor-bundle": ">=4,<4.3.2|>=5,<5.0.1",
-                "october/october": ">=1.0.319,<1.0.466",
+                "october/october": ">=1.0.319,<1.0.467",
                 "onelogin/php-saml": "<2.10.4",
                 "oneup/uploader-bundle": "<1.9.3|>=2,<2.1.5",
                 "openid/php-openid": "<2.3",
@@ -1561,7 +1562,7 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2020-06-19T13:23:43+00:00"
+            "time": "2020-07-03T16:50:03+00:00"
         },
         {
             "name": "squizlabs/php_codesniffer",
