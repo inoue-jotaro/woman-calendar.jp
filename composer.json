@@ -27,7 +27,8 @@
     "preferred-install": "dist",
     "platform": {
       "php": "7.3.14"
-    }
+    },
+    "sort-packages": true
   },
   "repositories": [
     {
