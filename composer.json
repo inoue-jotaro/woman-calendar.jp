@@ -26,7 +26,7 @@
   "config": {
     "preferred-install": "dist",
     "platform": {
-      "php": "7.3.14"
+      "php": "7.3.19"
     },
     "sort-packages": true
   },
@@ -200,13 +200,8 @@
   ],
   "require": {
     "php": ">=7.1",
-    "composer/installers": "^1.8",
-    "vlucas/phpdotenv": "^3.6.2",
-    "oscarotero/env": "^1.2.0",
-    "roots/wordpress": "^5.4",
-    "roots/wp-config": "1.0.0",
-    "roots/wp-password-bcrypt": "1.0.0",
     "advanced-custom-fields/advanced-custom-fields-pro": "*",
+    "composer/installers": "^1.8",
     "cookpad-baby/simple-seo-pack": "dev-master",
     "koodimonni-language/core-ja": "*",
     "koodimonni-plugin-language/all-in-one-seo-pack-ja": "*",
@@ -220,6 +215,11 @@
     "koodimonni-plugin-language/tablepress-ja": "*",
     "koodimonni-plugin-language/wordpress-importer-ja": "*",
     "koodimonni-plugin-language/wp-fastest-cache-ja": "*",
+    "oscarotero/env": "^1.2.0",
+    "roots/wordpress": "^5.4",
+    "roots/wp-config": "1.0.0",
+    "roots/wp-password-bcrypt": "1.0.0",
+    "vlucas/phpdotenv": "^3.6.2",
     "wpackagist-plugin/adminimize": "*",
     "wpackagist-plugin/amazon-s3-and-cloudfront": "*",
     "wpackagist-plugin/breadcrumb-navxt": "*",
@@ -232,12 +232,13 @@
     "wpackagist-plugin/loginizer": "*",
     "wpackagist-plugin/mw-wp-form": "*",
     "wpackagist-plugin/my-calendar": "*",
+    "wpackagist-plugin/seo-simple-pack": "*",
     "wpackagist-plugin/tablepress": "*",
     "wpackagist-plugin/wordpress-importer": "*",
     "wpackagist-plugin/wp-dashboard-notes": "*",
+    "wpackagist-plugin/wp-fastest-cache": "*",
     "wpackagist-plugin/wp-mail-smtp": "*",
-    "wpackagist-plugin/wp-multibyte-patch": "*",
-    "wpackagist-plugin/wp-fastest-cache": "*"
+    "wpackagist-plugin/wp-multibyte-patch": "*"
   },
   "require-dev": {
     "squizlabs/php_codesniffer": "^3.5.4",
