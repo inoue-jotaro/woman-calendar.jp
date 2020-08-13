@@ -47,7 +47,7 @@
       "type": "package",
       "package": {
         "name": "advanced-custom-fields/advanced-custom-fields-pro",
-        "version": "5.8.12",
+        "version": "5.8.14",
         "type": "wordpress-plugin",
         "dist": {
           "type": "zip",
@@ -76,7 +76,7 @@
       "package": {
         "name": "koodimonni-plugin-language/classic-editor-ja",
         "type": "wordpress-language",
-        "version": "1.5",
+        "version": "1.6",
         "dist": {
           "type": "zip",
           "url": "https://downloads.wordpress.org/translation/plugin/classic-editor/{%version}/ja.zip",
@@ -89,7 +89,7 @@
       "package": {
         "name": "koodimonni-plugin-language/custom-post-type-ui-ja",
         "type": "wordpress-language",
-        "version": "1.7.4",
+        "version": "1.7.5",
         "dist": {
           "type": "zip",
           "url": "https://downloads.wordpress.org/translation/plugin/custom-post-type-ui/{%version}/ja.zip",
@@ -166,7 +166,7 @@
       "package": {
         "name": "koodimonni-plugin-language/my-calendar-ja",
         "type": "wordpress-language",
-        "version": "3.2.4",
+        "version": "3.2.6",
         "dist": {
           "type": "zip",
           "url": "https://downloads.wordpress.org/translation/plugin/my-calendar/{%version}/ja.zip"
@@ -178,7 +178,7 @@
       "package": {
         "name": "koodimonni-plugin-language/tablepress-ja",
         "type": "wordpress-language",
-        "version": "1.11",
+        "version": "1.12",
         "dist": {
           "type": "zip",
           "url": "https://downloads.wordpress.org/translation/plugin/tablepress/{%version}/ja.zip"
