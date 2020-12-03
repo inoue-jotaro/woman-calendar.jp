@@ -12,9 +12,8 @@
 ## 構築に必要なもの
 * macOS
 * Git
-* Composer
-  * [HomeBrew](https://brew.sh/index_ja)
-  * `brew install composer`
+* [Composer](https://getcomposer.org/download/)
+  * `php composer-setup.php --install-dir=/usr/local/bin --filename=composer --version=1.10.17`
 
 ## 構築
 以下手順の`<ドメイン名>`は導入先ドメインに置き換えること
