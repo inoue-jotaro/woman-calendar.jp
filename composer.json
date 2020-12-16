@@ -54,7 +54,7 @@
           "url": "https://connect.advancedcustomfields.com/index.php?a=download&p=pro&k={%ACF_KEY}&t={%version}"
         },
         "require": {
-          "ffraenz/private-composer-installer": "^2.0"
+          "ffraenz/private-composer-installer": "^5.0"
         }
       }
     },
@@ -215,11 +215,12 @@
     "koodimonni-plugin-language/tablepress-ja": "*",
     "koodimonni-plugin-language/wordpress-importer-ja": "*",
     "koodimonni-plugin-language/wp-fastest-cache-ja": "*",
-    "oscarotero/env": "^1.2.0",
-    "roots/wordpress": "^5.5",
+    "oscarotero/env": "^2.1",
+    "roots/bedrock-autoloader": "^1.0",
+    "roots/wordpress": "^5.6",
     "roots/wp-config": "1.0.0",
     "roots/wp-password-bcrypt": "1.0.0",
-    "vlucas/phpdotenv": "^3.6.2",
+    "vlucas/phpdotenv": "^5.2",
     "wpackagist-plugin/adminimize": "*",
     "wpackagist-plugin/amazon-s3-and-cloudfront": "*",
     "wpackagist-plugin/breadcrumb-navxt": "*",
@@ -241,7 +242,7 @@
     "wpackagist-plugin/wp-multibyte-patch": "*"
   },
   "require-dev": {
-    "squizlabs/php_codesniffer": "^3.5.6",
+    "squizlabs/php_codesniffer": "^3.5.8",
     "roave/security-advisories": "dev-master"
   },
   "extra": {
