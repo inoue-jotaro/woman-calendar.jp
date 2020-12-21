@@ -227,13 +227,8 @@
     "koodimonni-plugin-language/tablepress-ja": "*",
     "koodimonni-plugin-language/wordpress-importer-ja": "*",
     "koodimonni-plugin-language/wp-fastest-cache-ja": "*",
-<<<<<<< HEAD
     "koodimonni-plugin-language/wp-user-avatar-ja": "*",
-    "oscarotero/env": "^2.1",
-    "roots/bedrock-autoloader": "^1.0",
-=======
     "oscarotero/env": "^1.2.0",
->>>>>>> upstream/master
     "roots/wordpress": "^5.6",
     "roots/wp-config": "1.0.0",
     "roots/wp-password-bcrypt": "1.0.0",
