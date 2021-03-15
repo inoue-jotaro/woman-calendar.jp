@@ -148,7 +148,7 @@
       "package": {
         "name": "koodimonni-plugin-language/my-calendar-ja",
         "type": "wordpress-language",
-        "version": "3.2.15",
+        "version": "3.2.16",
         "dist": {
           "type": "zip",
           "url": "https://downloads.wordpress.org/translation/plugin/my-calendar/{%version}/ja.zip"
@@ -160,7 +160,7 @@
       "package": {
         "name": "koodimonni-plugin-language/tablepress-ja",
         "type": "wordpress-language",
-        "version": "1.12",
+        "version": "1.13",
         "dist": {
           "type": "zip",
           "url": "https://downloads.wordpress.org/translation/plugin/tablepress/{%version}/ja.zip"
@@ -172,7 +172,7 @@
       "package": {
         "name": "koodimonni-plugin-language/wp-fastest-cache-ja",
         "type": "wordpress-language",
-        "version": "0.9.1.5",
+        "version": "0.9.1.6",
         "dist": {
           "type": "zip",
           "url": "https://downloads.wordpress.org/translation/plugin/wp-fastest-cache/{%version}/ja.zip"
