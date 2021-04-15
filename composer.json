@@ -235,6 +235,7 @@
     "wpackagist-plugin/tablepress": "*",
     "wpackagist-plugin/taxonomy-terms-order": "*",
     "wpackagist-plugin/wordpress-importer": "*",
+    "wpackagist-plugin/wordpress-popular-posts": "*",
     "wpackagist-plugin/wp-dashboard-notes": "*",
     "wpackagist-plugin/wp-fastest-cache": "*",
     "wpackagist-plugin/wp-mail-smtp": "*",
