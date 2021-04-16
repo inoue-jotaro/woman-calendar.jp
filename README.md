@@ -20,7 +20,7 @@
 
 ### 1. ローカルにプロジェクトを作成
 ```ShellSession
-$ git clone git@github.com:cookpad-baby/hosting-wordpress.git <ドメイン名>
+$ git clone git@github.com:baby-calendar-hosts/wordpress.git <ドメイン名>
 $ cd <ドメイン名>
 ```
 
@@ -32,7 +32,7 @@ $ cd <ドメイン名>
 
 ```ShellSession
 $ git remote set-url origin <新リポジトリ>
-$ git remote add upstream git@github.com:cookpad-baby/hosting-wordpress.git
+$ git remote add upstream git@github.com:baby-calendar-hosts/wordpress.git
 $ git push
 ```
 
