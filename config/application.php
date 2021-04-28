@@ -63,6 +63,7 @@ Config::define('DB_NAME', env('DB_NAME'));
 Config::define('DB_USER', env('DB_USER'));
 Config::define('DB_PASSWORD', env('DB_PASSWORD'));
 Config::define('DB_HOST', env('DB_HOST') ?: 'localhost');
+Config::define('DB_RO_HOST', env('DB_RO_HOST'));
 Config::define('DB_CHARSET', 'utf8mb4');
 Config::define('DB_COLLATE', '');
 $table_prefix = env('DB_PREFIX') ?: 'wp_';
@@ -136,6 +137,9 @@ Config::define('AS3CF_SETTINGS', serialize([
     'remove-local-file' => true,
     'object-versioning' => true,
 ]));
+
+// HyperDB config
+Config::define('DB_CONFIG_FILE', __DIR__ . '/environments/' . WP_ENV . '-db.php');
 
 $env_config = __DIR__ . '/environments/' . WP_ENV . '.php';
 
