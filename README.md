@@ -26,7 +26,7 @@ $ cd <ドメイン名>
 
 ### 2. githubリポジトリを作成
 [GitHubにリポジトリ作成する](https://github.com/organizations/cookpad-baby/repositories/new)
-* リポジトリ名 : hosting-**<ドメイン名>**
+* リポジトリ名 : **<ドメイン名>**
 * public
 * origin変更とupstreamの追加
 
