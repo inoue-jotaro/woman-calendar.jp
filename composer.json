@@ -135,7 +135,7 @@
       "package": {
         "name": "koodimonni-plugin-language/taxonomy-terms-order-ja",
         "type": "wordpress-language",
-        "version": "1.5.7.4",
+        "version": "1.5.7.5",
         "dist": {
           "type": "zip",
           "url": "https://downloads.wordpress.org/translation/plugin/taxonomy-terms-order/{%version}/ja.zip",
@@ -172,7 +172,7 @@
       "package": {
         "name": "koodimonni-plugin-language/wp-fastest-cache-ja",
         "type": "wordpress-language",
-        "version": "0.9.1.7",
+        "version": "0.9.1.8",
         "dist": {
           "type": "zip",
           "url": "https://downloads.wordpress.org/translation/plugin/wp-fastest-cache/{%version}/ja.zip"
