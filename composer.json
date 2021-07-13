@@ -232,6 +232,7 @@
     "wpackagist-plugin/mw-wp-form": "*",
     "wpackagist-plugin/my-calendar": "*",
     "wpackagist-plugin/recaptcha-for-mw-wp-form": "*",
+    "wpackagist-plugin/related": "*",
     "wpackagist-plugin/seo-simple-pack": "*",
     "wpackagist-plugin/tablepress": "*",
     "wpackagist-plugin/taxonomy-terms-order": "*",
