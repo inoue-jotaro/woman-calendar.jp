@@ -41,7 +41,7 @@
       "type": "package",
       "package": {
         "name": "advanced-custom-fields/advanced-custom-fields-pro",
-        "version": "5.9.5",
+        "version": "5.9.9",
         "type": "wordpress-plugin",
         "dist": {
           "type": "zip",
@@ -70,7 +70,7 @@
       "package": {
         "name": "koodimonni-plugin-language/classic-editor-ja",
         "type": "wordpress-language",
-        "version": "1.6",
+        "version": "1.6.2",
         "dist": {
           "type": "zip",
           "url": "https://downloads.wordpress.org/translation/plugin/classic-editor/{%version}/ja.zip",
@@ -160,7 +160,7 @@
       "package": {
         "name": "koodimonni-plugin-language/tablepress-ja",
         "type": "wordpress-language",
-        "version": "1.13",
+        "version": "1.14",
         "dist": {
           "type": "zip",
           "url": "https://downloads.wordpress.org/translation/plugin/tablepress/{%version}/ja.zip"
@@ -172,7 +172,7 @@
       "package": {
         "name": "koodimonni-plugin-language/wp-fastest-cache-ja",
         "type": "wordpress-language",
-        "version": "0.9.1.9",
+        "version": "0.9.2",
         "dist": {
           "type": "zip",
           "url": "https://downloads.wordpress.org/translation/plugin/wp-fastest-cache/{%version}/ja.zip"
