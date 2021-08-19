@@ -172,7 +172,7 @@
       "package": {
         "name": "koodimonni-plugin-language/wp-fastest-cache-ja",
         "type": "wordpress-language",
-        "version": "0.9.2",
+        "version": "0.9.3",
         "dist": {
           "type": "zip",
           "url": "https://downloads.wordpress.org/translation/plugin/wp-fastest-cache/{%version}/ja.zip"
