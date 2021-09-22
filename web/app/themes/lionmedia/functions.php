@@ -3903,6 +3903,11 @@ function insert_seo_fields() {
 
 // カスタムフィールドの値を保存
 function save_custom_fields( $post_id ) {
+	// 自動保存ルーチンかどうかチェック。そうだった場合はフォームを送信しない（何もしない）
+	if ( defined('DOING_AUTOSAVE') && DOING_AUTOSAVE ) {
+		return $post_id;
+	}
+
 	if(!empty($_POST['title'])){
 		update_post_meta($post_id, 'title', $_POST['title'] );
 	}else{
