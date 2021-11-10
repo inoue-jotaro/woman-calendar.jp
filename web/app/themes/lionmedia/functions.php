@@ -3903,45 +3903,26 @@ function insert_seo_fields() {
 
 // カスタムフィールドの値を保存
 function save_custom_fields( $post_id ) {
-	// 自動保存ルーチンかどうかチェック。そうだった場合はフォームを送信しない（何もしない）
-	if ( defined('DOING_AUTOSAVE') && DOING_AUTOSAVE ) {
-		return $post_id;
-	}
-
-	if(!empty($_POST['title'])){
+	if(isset($_POST['title'])){
 		update_post_meta($post_id, 'title', $_POST['title'] );
-	}else{
-		delete_post_meta($post_id, 'title');
 	}
-	if(!empty($_POST['titleName'])){
+	if(isset($_POST['titleName'])){
 		update_post_meta($post_id, 'titleName', $_POST['titleName'] );
-	}else{
-		delete_post_meta($post_id, 'titleName');
 	}
-	if(!empty($_POST['description'])){
+	if(isset($_POST['description'])){
 		update_post_meta($post_id, 'description', $_POST['description'] );
-	}else{
-		delete_post_meta($post_id, 'description');
 	}
-	if(!empty($_POST['noindex'])){
+	if(isset($_POST['noindex'])){
 		update_post_meta($post_id, 'noindex', $_POST['noindex'] );
-	}else{
-		delete_post_meta($post_id, 'noindex');
 	}
-	if(!empty($_POST['nofollow'])){
+	if(isset($_POST['nofollow'])){
 		update_post_meta($post_id, 'nofollow', $_POST['nofollow'] );
-	}else{
-		delete_post_meta($post_id, 'nofollow');
 	}
-	if(!empty($_POST['nosnippet'])){
+	if(isset($_POST['nosnippet'])){
 		update_post_meta($post_id, 'nosnippet', $_POST['nosnippet'] );
-	}else{
-		delete_post_meta($post_id, 'nosnippet');
 	}
-	if(!empty($_POST['noarchive'])){
+	if(isset($_POST['noarchive'])){
 		update_post_meta($post_id, 'noarchive', $_POST['noarchive'] );
-	}else{
-		delete_post_meta($post_id, 'noarchive');
 	}
 }
 add_action('save_post', 'save_custom_fields');
