@@ -220,6 +220,7 @@
     "wpackagist-plugin/amazon-s3-and-cloudfront": "*",
     "wpackagist-plugin/breadcrumb-navxt": "*",
     "wpackagist-plugin/classic-editor": "*",
+    "wpackagist-plugin/classic-widgets": "*",
     "wpackagist-plugin/custom-post-type-permalinks": "*",
     "wpackagist-plugin/custom-post-type-ui": "*",
     "wpackagist-plugin/duplicate-post": "*",
