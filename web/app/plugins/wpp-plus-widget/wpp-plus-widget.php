@@ -110,7 +110,8 @@ stats_comments=0';
           $cats = array( $term_id );
           foreach( $categories as $category )
             $cats[] = $category->term_id;
-          $post_args['cat'] = join( ',', $cats );
+          $post_args['taxonomy'] = 'category';
+          $post_args['term_id'] = join( ',', $cats );
         }
       }
     }
