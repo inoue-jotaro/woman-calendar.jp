@@ -5944,19 +5944,21 @@ function _outline_link_url( $i ) {
 // ページをまたいだ目次（アンカーリンク）に対応する
 add_filter('content_pagination', function ($pages) {
 	$content = implode('<!--nextpage-->',  $pages);
-	$outline_info = get_outline_info($content);
-	$pages = explode('<!--nextpage-->', $outline_info['content']);
-	foreach ($pages as $index => $content) {
-		if (preg_match_all('/ id="(outline__[^"]*)"/', $content, $matches, PREG_SET_ORDER) > 0) {
-			foreach ($matches as $match) {
-				$search = ' href="#' . $match[1] . '"';
-				$replace = ' href="' . _outline_link_url($index + 1) . '#' . $match[1] . '"';
-				$outline_info['outline'] = str_replace($search, $replace, $outline_info['outline']);
+	if (strpos($content, ' id="outline__') === false) {
+		$outline_info = get_outline_info($content);
+		$pages = explode('<!--nextpage-->', $outline_info['content']);
+		foreach ($pages as $index => $content) {
+			if (preg_match_all('/ id="(outline__[^"]*)"/', $content, $matches, PREG_SET_ORDER) > 0) {
+				foreach ($matches as $match) {
+					$search = ' href="#' . $match[1] . '"';
+					$replace = ' href="' . _outline_link_url($index + 1) . '#' . $match[1] . '"';
+					$outline_info['outline'] = str_replace($search, $replace, $outline_info['outline']);
+				}
 			}
 		}
-	}
-	foreach ($pages as $index => $content) {
-		$pages[$index] = add_outline($content, $outline_info);
+		foreach ($pages as $index => $content) {
+			$pages[$index] = add_outline($content, $outline_info);
+		}
 	}
 	return $pages;
 });
