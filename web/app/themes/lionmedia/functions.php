@@ -5965,7 +5965,7 @@ add_filter('content_pagination', function ($pages) {
 add_filter('the_content', function ($content) {
 	if (preg_match_all('/ id="(outline__[^"]*)"/', $content, $matches, PREG_SET_ORDER) > 0) {
 		foreach ($matches as $match) {
-			$pattern = '/ href="[^#]+#' . $match[1] . '"/';
+			$pattern = '/ href="[^#"]+#' . $match[1] . '"/';
 			$replacement = ' href="#' . $match[1] . '"';
 			$content = preg_replace($pattern, $replacement, $content);
 		}
