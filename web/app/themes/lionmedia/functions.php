@@ -5865,7 +5865,7 @@ function get_outline_info($content) {
 }
 
 //目次を作成します。
-function add_outline($content) {
+function add_outline($content, $outline_info = null) {
 
     // 目次を表示するために必要な見出しの数
 	if(get_option('fit_post_outline_number')){
@@ -5873,11 +5873,13 @@ function add_outline($content) {
 	}else{
 		$number = 1;
 	}
-    // 目次関連の情報を取得します。
-    $outline_info = get_outline_info($content);
-    $content = $outline_info['content'];
-    $outline = $outline_info['outline'];
-    $count = $outline_info['count'];
+	// 目次関連の情報を取得します。
+	if (is_null($outline_info)) {
+		$outline_info = get_outline_info($content);
+		$content = $outline_info['content'];
+	}
+	$outline = $outline_info['outline'];
+	$count = $outline_info['count'];
 	if (get_option('fit_post_outline_close') ) {
 		$close = "";
 	}else{
@@ -5907,9 +5909,67 @@ function add_outline($content) {
     }
 	return $content;
 }
-add_filter('the_content', 'add_outline');
+//add_filter('the_content', 'add_outline');
 
+function _outline_link_url( $i ) {
+	global $wp_rewrite;
+	$post       = get_post();
+	$query_args = array();
 
+	if ( 1 == $i ) {
+		$url = get_permalink();
+	} else {
+		if ( ! get_option( 'permalink_structure' ) || in_array( $post->post_status, array( 'draft', 'pending' ), true ) || is_preview() ) {
+			$url = add_query_arg( 'page', $i, get_permalink() );
+		} elseif ( 'page' === get_option( 'show_on_front' ) && get_option( 'page_on_front' ) == $post->ID ) {
+			$url = trailingslashit( get_permalink() ) . user_trailingslashit( "$wp_rewrite->pagination_base/" . $i, 'single_paged' );
+		} else {
+			$url = trailingslashit( get_permalink() ) . user_trailingslashit( $i, 'single_paged' );
+		}
+	}
+
+	if ( is_preview() ) {
+
+		if ( ( 'draft' !== $post->post_status ) && isset( $_GET['preview_id'], $_GET['preview_nonce'] ) ) {
+			$query_args['preview_id']    = wp_unslash( $_GET['preview_id'] );
+			$query_args['preview_nonce'] = wp_unslash( $_GET['preview_nonce'] );
+		}
+
+		$url = get_preview_post_link( $post, $query_args, $url );
+	}
+
+	return $url;
+}
+
+// ページをまたいだ目次（アンカーリンク）に対応する
+add_filter('content_pagination', function ($pages) {
+	$content = implode('<!--nextpage-->',  $pages);
+	$outline_info = get_outline_info($content);
+	$pages = explode('<!--nextpage-->', $outline_info['content']);
+	foreach ($pages as $index => $content) {
+		if (preg_match_all('/ id="(outline__[^"]*)"/', $content, $matches, PREG_SET_ORDER) > 0) {
+			foreach ($matches as $match) {
+				$search = ' href="#' . $match[1] . '"';
+				$replace = ' href="' . _outline_link_url($index + 1) . '#' . $match[1] . '"';
+				$outline_info['outline'] = str_replace($search, $replace, $outline_info['outline']);
+			}
+		}
+	}
+	foreach ($pages as $index => $content) {
+		$pages[$index] = add_outline($content, $outline_info);
+	}
+	return $pages;
+});
+add_filter('the_content', function ($content) {
+	if (preg_match_all('/ id="(outline__[^"]*)"/', $content, $matches, PREG_SET_ORDER) > 0) {
+		foreach ($matches as $match) {
+			$pattern = '/ href="[^#]+#' . $match[1] . '"/';
+			$replacement = ' href="#' . $match[1] . '"';
+			$content = preg_replace($pattern, $replacement, $content);
+		}
+	}
+	return $content;
+});
 
 
 //////////////////////////////////////////////////
