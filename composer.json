@@ -41,7 +41,7 @@
       "type": "package",
       "package": {
         "name": "advanced-custom-fields/advanced-custom-fields-pro",
-        "version": "5.11.4",
+        "version": "5.12",
         "type": "wordpress-plugin",
         "dist": {
           "type": "zip",
@@ -135,7 +135,7 @@
       "package": {
         "name": "koodimonni-plugin-language/taxonomy-terms-order-ja",
         "type": "wordpress-language",
-        "version": "1.5.7.7",
+        "version": "1.5.9",
         "dist": {
           "type": "zip",
           "url": "https://downloads.wordpress.org/translation/plugin/taxonomy-terms-order/{%version}/ja.zip",
