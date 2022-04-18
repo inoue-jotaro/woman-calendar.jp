@@ -225,7 +225,6 @@
     "wpackagist-plugin/custom-post-type-ui": "*",
     "wpackagist-plugin/duplicate-post": "*",
     "wpackagist-plugin/google-apps-login": "*",
-    "wpackagist-plugin/google-sitemap-generator": "*",
     "wpackagist-plugin/instagram-feed": "*",
     "wpackagist-plugin/intuitive-custom-post-order": "*",
     "wpackagist-plugin/invisible-recaptcha": "*",
