@@ -213,7 +213,7 @@
     "optimize-autoloader": true,
     "preferred-install": "dist",
     "platform": {
-      "php": "7.4.28"
+      "php": "7.4.29"
     },
     "sort-packages": true,
     "allow-plugins": {
