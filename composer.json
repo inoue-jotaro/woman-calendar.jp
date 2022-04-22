@@ -34,10 +34,6 @@
       "url": "https://wp-languages.github.io"
     },
     {
-      "type": "vcs",
-      "url": "https://github.com/cookpad-baby/simple-seo-pack"
-    },
-    {
       "type": "package",
       "package": {
         "name": "advanced-custom-fields/advanced-custom-fields-pro",
@@ -172,7 +168,6 @@
     "php": ">=7.4",
     "advanced-custom-fields/advanced-custom-fields-pro": "*",
     "composer/installers": "^2.1",
-    "cookpad-baby/simple-seo-pack": "dev-master",
     "koodimonni-language/core-ja": "*",
     "koodimonni-plugin-language/breadcrumb-navxt-ja": "*",
     "koodimonni-plugin-language/classic-editor-ja": "*",
