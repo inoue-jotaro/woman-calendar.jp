@@ -117,6 +117,9 @@ if (isset($_SERVER['HTTP_X_FORWARDED_PROTO']) && $_SERVER['HTTP_X_FORWARDED_PROT
     $_SERVER['HTTPS'] = 'on';
 }
 
+// LudicrousDB config
+Config::define('DB_CONFIG_FILE', __DIR__ . '/environments/' . WP_ENV . '-db.php');
+
 // Contact Form7のおせっかいな警告を抑制する
 Config::define('WPCF7_VALIDATE_CONFIGURATION', false);
 
@@ -137,9 +140,6 @@ Config::define('AS3CF_SETTINGS', serialize([
     'remove-local-file' => true,
     'object-versioning' => true,
 ]));
-
-// HyperDB config
-Config::define('DB_CONFIG_FILE', __DIR__ . '/environments/' . WP_ENV . '-db.php');
 
 $env_config = __DIR__ . '/environments/' . WP_ENV . '.php';
 
