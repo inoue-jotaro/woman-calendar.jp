@@ -161,6 +161,18 @@
           "url": "https://downloads.wordpress.org/translation/plugin/wp-fastest-cache/{%version}/ja.zip"
         }
       }
+    },
+    {
+      "type": "package",
+      "package": {
+        "name": "koodimonni-plugin-language/xml-sitemap-feed-ja",
+        "type": "wordpress-language",
+        "version": "5.3.3",
+        "dist": {
+          "type": "zip",
+          "url": "https://downloads.wordpress.org/translation/plugin/xml-sitemap-feed/{%version}/ja.zip"
+        }
+      }
     }
 
   ],
@@ -178,6 +190,7 @@
     "koodimonni-plugin-language/tablepress-ja": "*",
     "koodimonni-plugin-language/wordpress-importer-ja": "*",
     "koodimonni-plugin-language/wp-fastest-cache-ja": "*",
+    "koodimonni-plugin-language/xml-sitemap-feed-ja": "*",
     "oscarotero/env": "^2.1",
     "roots/bedrock-autoloader": "^1.0",
     "roots/wordpress": "^5.9",
@@ -203,7 +216,8 @@
     "wpackagist-plugin/wp-dashboard-notes": "*",
     "wpackagist-plugin/wp-fastest-cache": "*",
     "wpackagist-plugin/wp-mail-smtp": "*",
-    "wpackagist-plugin/wp-multibyte-patch": "*"
+    "wpackagist-plugin/wp-multibyte-patch": "*",
+    "wpackagist-plugin/xml-sitemap-feed": "*"
   },
   "require-dev": {
     "roave/security-advisories": "dev-master",
