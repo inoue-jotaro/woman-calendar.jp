@@ -218,6 +218,7 @@
     "wpackagist-plugin/custom-post-type-permalinks": "*",
     "wpackagist-plugin/custom-post-type-ui": "*",
     "wpackagist-plugin/duplicate-post": "*",
+    "wpackagist-plugin/enable-cors-support": "*",
     "wpackagist-plugin/google-apps-login": "*",
     "wpackagist-plugin/instagram-feed": "*",
     "wpackagist-plugin/intuitive-custom-post-order": "*",
