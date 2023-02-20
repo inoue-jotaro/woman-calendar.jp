@@ -727,3 +727,7 @@ sharethrough.com, 8bab9627, RESELLER, d53b998a7bd4ecd2
 gumgum.com, 15563, RESELLER, ffdef49475d318a9
 adagio.io, 1236, RESELLER
 inmobi.com,eea6e7d8efb24f40999600e94b0ff1e6, RESELLER, 83e75a7ae333ca9
+truvid.com, 1273, DIRECT
+video.unrulymedia.com, 2564526802, RESELLER
+sharethrough.com, OAW69Fon, RESELLER, d53b998a7bd4ecd2
+contextweb.com , 560288, RESELLER, 89ff185a4c4e857c
