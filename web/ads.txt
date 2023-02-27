@@ -414,7 +414,6 @@ mintegral.com,10043,RESELLER,0aeed750c80d6423
 sonobi.com,7f5fa520f8,RESELLER,d1a215d9eb5aee9e
 onetag.com,770a440e65869c2,RESELLER
 gmossp-sp.jp,2000549,DIRECT
-fourm.jp, 8264, DIRECT
 fourm.jp, A2935, DIRECT
 microad.co.jp,25573,DIRECT
 pubmatic.com,157492, RESELLER,5d62403b186f2ace
