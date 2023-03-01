@@ -220,7 +220,7 @@
     "wpackagist-plugin/xml-sitemap-feed": "*"
   },
   "require-dev": {
-    "roave/security-advisories": "dev-latest"
+    "roave/security-advisories": "dev-latest",
     "squizlabs/php_codesniffer": "^3.7.1"
   },
   "config": {
