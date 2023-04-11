@@ -757,3 +757,5 @@ video.unrulymedia.com, 3383599585, RESELLER
 video.unrulymedia.com, 4718671464164524210, DIRECT
 webeyemob.com, 70098, RESELLER
 yandex.com, 97539269, RESELLER
+pubmatic.com, 158357, RESELLER, 5d62403b186f2ace
+indexexchange.com, 202092, RESELLER, 50b1c356f2c5c8fc
