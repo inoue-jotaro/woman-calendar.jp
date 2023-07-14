@@ -885,3 +885,17 @@ pubmatic.com,162474,Reseller,5d62403b186f2ace
 logly.co.jp,151,Direct
 logly.co.jp,203,Reseller
 fourm.jp,A2935,Direct
+richaudience.com, 9F65j1nNsk, DIRECT
+adform.com, 2631, RESELLER, 9f5210a2f0999e32
+pubmatic.com, 163238, RESELLER, 5d62403b186f2ace
+smartadserver.com, 4537, RESELLER, 060d053dcf45cbf3
+rubiconproject.com, 25198, RESELLER, 0bfd66d529a55807
+truvid.com, 107295, DIRECT
+freewheel.tv, 1598501, DIRECT
+freewheel.tv, 1598502, RESELLER
+OWNERDOMAIN=baby-calendar.jp
+MANAGERDOMAIN=fourm.jp
+pubmatic.com, 163238, RESELLER, 5d62403b186f2ace
+smartadserver.com, 4537, RESELLER, 060d053dcf45cbf3
+rubiconproject.com, 25198, RESELLER, 0bfd66d529a55807
+rubiconproject.com, 25730, RESELLER, 0bfd66d529a55807
