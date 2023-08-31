@@ -37,7 +37,7 @@
       "type": "package",
       "package": {
         "name": "advanced-custom-fields/advanced-custom-fields-pro",
-        "version": "5.12.2",
+        "version": "6.2.0",
         "type": "wordpress-plugin",
         "dist": {
           "type": "zip",
@@ -53,7 +53,7 @@
       "package": {
         "name": "koodimonni-plugin-language/breadcrumb-navxt-ja",
         "type": "wordpress-language",
-        "version": "7.0.2",
+        "version": "7.2.0",
         "dist": {
           "type": "zip",
           "url": "https://downloads.wordpress.org/translation/plugin/breadcrumb-navxt/{%version}/ja.zip",
@@ -66,7 +66,7 @@
       "package": {
         "name": "koodimonni-plugin-language/classic-editor-ja",
         "type": "wordpress-language",
-        "version": "1.6.2",
+        "version": "1.6.3",
         "dist": {
           "type": "zip",
           "url": "https://downloads.wordpress.org/translation/plugin/classic-editor/{%version}/ja.zip",
@@ -79,7 +79,7 @@
       "package": {
         "name": "koodimonni-plugin-language/custom-post-type-ui-ja",
         "type": "wordpress-language",
-        "version": "1.11.2",
+        "version": "1.14.0",
         "dist": {
           "type": "zip",
           "url": "https://downloads.wordpress.org/translation/plugin/custom-post-type-ui/{%version}/ja.zip",
@@ -92,7 +92,7 @@
       "package": {
         "name": "koodimonni-plugin-language/duplicate-post-ja",
         "type": "wordpress-language",
-        "version": "4.4",
+        "version": "4.5",
         "dist": {
           "type": "zip",
           "url": "https://downloads.wordpress.org/translation/plugin/duplicate-post/{%version}/ja.zip",
@@ -105,7 +105,7 @@
       "package": {
         "name": "koodimonni-plugin-language/mw-wp-form-ja",
         "type": "wordpress-language",
-        "version": "4.4.0",
+        "version": "4.4.5",
         "dist": {
           "type": "zip",
           "url": "https://downloads.wordpress.org/translation/plugin/mw-wp-form/{%version}/ja.zip",
@@ -118,7 +118,7 @@
       "package": {
         "name": "koodimonni-plugin-language/taxonomy-terms-order-ja",
         "type": "wordpress-language",
-        "version": "1.5.9",
+        "version": "1.7.7",
         "dist": {
           "type": "zip",
           "url": "https://downloads.wordpress.org/translation/plugin/taxonomy-terms-order/{%version}/ja.zip",
@@ -143,7 +143,7 @@
       "package": {
         "name": "koodimonni-plugin-language/my-calendar-ja",
         "type": "wordpress-language",
-        "version": "3.3.12",
+        "version": "3.4.18",
         "dist": {
           "type": "zip",
           "url": "https://downloads.wordpress.org/translation/plugin/my-calendar/{%version}/ja.zip"
@@ -155,7 +155,7 @@
       "package": {
         "name": "koodimonni-plugin-language/tablepress-ja",
         "type": "wordpress-language",
-        "version": "1.14",
+        "version": "2.1.7",
         "dist": {
           "type": "zip",
           "url": "https://downloads.wordpress.org/translation/plugin/tablepress/{%version}/ja.zip"
@@ -167,7 +167,7 @@
       "package": {
         "name": "koodimonni-plugin-language/wp-fastest-cache-ja",
         "type": "wordpress-language",
-        "version": "1.0.0",
+        "version": "1.1.8",
         "dist": {
           "type": "zip",
           "url": "https://downloads.wordpress.org/translation/plugin/wp-fastest-cache/{%version}/ja.zip"
@@ -179,7 +179,7 @@
       "package": {
         "name": "koodimonni-plugin-language/xml-sitemap-feed-ja",
         "type": "wordpress-language",
-        "version": "5.3.3",
+        "version": "5.3.5",
         "dist": {
           "type": "zip",
           "url": "https://downloads.wordpress.org/translation/plugin/xml-sitemap-feed/{%version}/ja.zip"
@@ -191,8 +191,9 @@
   "require": {
     "php": ">=7.4",
     "advanced-custom-fields/advanced-custom-fields-pro": "*",
-    "composer/installers": "^2.1",
+    "composer/installers": "^2.2",
     "koodimonni-language/core-ja": "*",
+    "koodimonni/composer-dropin-installer": "*",
     "koodimonni-plugin-language/breadcrumb-navxt-ja": "*",
     "koodimonni-plugin-language/classic-editor-ja": "*",
     "koodimonni-plugin-language/custom-post-type-ui-ja": "*",
@@ -206,10 +207,10 @@
     "koodimonni-plugin-language/xml-sitemap-feed-ja": "*",
     "oscarotero/env": "^2.1",
     "roots/bedrock-autoloader": "^1.0",
-    "roots/wordpress": "^5.9",
+    "roots/wordpress": "^6.3",
     "roots/wp-config": "1.0.0",
     "roots/wp-password-bcrypt": "1.1.0",
-    "vlucas/phpdotenv": "^5.4",
+    "vlucas/phpdotenv": "^5.5",
     "wpackagist-plugin/adminimize": "*",
     "wpackagist-plugin/amazon-s3-and-cloudfront": "*",
     "wpackagist-plugin/breadcrumb-navxt": "*",
@@ -241,15 +242,12 @@
     "wpackagist-plugin/xml-sitemap-feed": "*"
   },
   "require-dev": {
-    "roave/security-advisories": "dev-master",
-    "squizlabs/php_codesniffer": "^3.6.2"
+    "roave/security-advisories": "dev-latest",
+    "squizlabs/php_codesniffer": "^3.7.1"
   },
   "config": {
     "optimize-autoloader": true,
     "preferred-install": "dist",
-    "platform": {
-      "php": "7.4.29"
-    },
     "sort-packages": true,
     "allow-plugins": {
       "composer/installers": true,
