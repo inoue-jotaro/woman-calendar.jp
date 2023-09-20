@@ -233,6 +233,9 @@
       "koodimonni/composer-dropin-installer": true,
       "ffraenz/private-composer-installer": true,
       "roots/wordpress-core-installer": true
+    },
+    "platform": {
+      "php": "7.4.33"
     }
   },
   "minimum-stability": "dev",
