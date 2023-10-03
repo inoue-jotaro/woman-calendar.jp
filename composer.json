@@ -37,7 +37,7 @@
       "type": "package",
       "package": {
         "name": "advanced-custom-fields/advanced-custom-fields-pro",
-        "version": "6.2.0",
+        "version": "6.2.1.1",
         "type": "wordpress-plugin",
         "dist": {
           "type": "zip",
@@ -105,7 +105,7 @@
       "package": {
         "name": "koodimonni-plugin-language/mw-wp-form-ja",
         "type": "wordpress-language",
-        "version": "4.4.5",
+        "version": "5.0.1",
         "dist": {
           "type": "zip",
           "url": "https://downloads.wordpress.org/translation/plugin/mw-wp-form/{%version}/ja.zip",
@@ -131,7 +131,7 @@
       "package": {
         "name": "koodimonni-plugin-language/my-calendar-ja",
         "type": "wordpress-language",
-        "version": "3.4.19",
+        "version": "3.4.20",
         "dist": {
           "type": "zip",
           "url": "https://downloads.wordpress.org/translation/plugin/my-calendar/{%version}/ja.zip"
@@ -155,7 +155,7 @@
       "package": {
         "name": "koodimonni-plugin-language/wp-fastest-cache-ja",
         "type": "wordpress-language",
-        "version": "1.1.9",
+        "version": "1.2.0",
         "dist": {
           "type": "zip",
           "url": "https://downloads.wordpress.org/translation/plugin/wp-fastest-cache/{%version}/ja.zip"
@@ -167,7 +167,7 @@
       "package": {
         "name": "koodimonni-plugin-language/xml-sitemap-feed-ja",
         "type": "wordpress-language",
-        "version": "5.3.5",
+        "version": "5.3.6",
         "dist": {
           "type": "zip",
           "url": "https://downloads.wordpress.org/translation/plugin/xml-sitemap-feed/{%version}/ja.zip"
