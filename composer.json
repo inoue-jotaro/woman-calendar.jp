@@ -180,6 +180,7 @@
     "php": ">=7.4",
     "advanced-custom-fields/advanced-custom-fields-pro": "*",
     "composer/installers": "^2.2",
+    "humanmade/s3-uploads": "^3.0",
     "koodimonni-language/core-ja": "*",
     "koodimonni/composer-dropin-installer": "*",
     "koodimonni-plugin-language/breadcrumb-navxt-ja": "*",
