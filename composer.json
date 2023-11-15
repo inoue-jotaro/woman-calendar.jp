@@ -200,7 +200,6 @@
     "roots/wp-password-bcrypt": "1.1.0",
     "vlucas/phpdotenv": "^5.5",
     "wpackagist-plugin/adminimize": "*",
-    "wpackagist-plugin/amazon-s3-and-cloudfront": "*",
     "wpackagist-plugin/breadcrumb-navxt": "*",
     "wpackagist-plugin/classic-editor": "*",
     "wpackagist-plugin/custom-post-type-permalinks": "*",
