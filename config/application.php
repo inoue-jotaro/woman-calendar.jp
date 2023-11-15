@@ -163,10 +163,10 @@ Config::define('AS3CF_SETTINGS', serialize([
 ]));
 
 // humanmade/S3-Uploads
-Config::define('S3_UPLOADS_BUCKET', 'static.babypad.jp/' . env('DOMAIN_NAME') . '/uploads');
+Config::define('S3_UPLOADS_BUCKET', 'static.babypad.jp/' . env('DOMAIN_NAME'));
 Config::define('S3_UPLOADS_REGION', 'ap-northeast-1');
 Config::define('S3_UPLOADS_USE_INSTANCE_PROFILE', true);
-Config::define('S3_UPLOADS_BUCKET_URL', 'https://static.babypad.jp/' . env('DOMAIN_NAME') . '/uploads');
+Config::define('S3_UPLOADS_BUCKET_URL', 'https://static.babypad.jp/' . env('DOMAIN_NAME'));
 
 $env_config = __DIR__ . '/environments/' . WP_ENV . '.php';
 
