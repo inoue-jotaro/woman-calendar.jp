@@ -236,7 +236,6 @@ openx.com,537149485,reseller,6a698e2ec38604c6
 google.com,pub-9557089510405422,reseller,f08c47fec0942fa0
 google.com,pub-3848273848634341,reseller,f08c47fec0942fa0
 rhythmone.com,78519861,reseller,a670c89d4a324e47
-appnexus.com,7597,reseller,f5ab79cb980f11d1
 33across.com,0013300001r0t9mAAA,reseller,bbea06d9c4d2853c
 appnexus.com,10239,reseller,f5ab79cb980f11d1
 rubiconproject.com,16414,reseller,0bfd66d529a55807
@@ -259,9 +258,6 @@ impact-ad.jp,4071,RESELLER
 openx.com,540137510,RESELLER,6a698e2ec38604c6
 gmossp-sp.jp,2000549,RESELLER
 yahoo.com,58202,RESELLER
-appnexus.com,11664,RESELLER
-appnexus.com,1356,RESELLER,f5ab79cb980f11d1
-appnexus.com,1868,RESELLER
 indexexchange.com,183875,RESELLER,50b1c356f2c5c8fc
 indexexchange.com,184349,RESELLER,50b1c356f2c5c8fc
 openx.com,537125356,RESELLER,6a698e2ec38604c6
@@ -299,9 +295,6 @@ rubiconproject.com,13136,RESELLER,0bfd66d529a55807
 ad-generation.jp,9140,RESELLER
 publishers.logicad.jp,e5VD,DIRECT
 adingo.jp,23902,RESELLER
-contextweb.com,558355,reseller
-coxmt.com,2000067995202,reseller
-outbrain.com,00254374f0c468f3b2732db17fd42cb6e5,reseller
 uliza.jp,9990149,DIRECT
 relaido.jp,9990149,DIRECT
 triplelift.com,7207,DIRECT,6c33edb13117fd86
@@ -369,8 +362,6 @@ appnexus.com,13099,RESELLER
 smartadserver.com,4111,RESELLER
 33across.com,0015a00002oUk4aAAC,RESELLER,bbea06d9c4d2853c
 yahoo.com,57289,RESELLER,e1a5b5b6e3255540
-appnexus.com,10239,RESELLER,f5ab79cb980f11d1
-rubiconproject.com,16414,RESELLER,0bfd66d529a55807
 richaudience.com,1BTOoaD22a,RESELLER
 appnexus.com,8233,RESELLER
 pubmatic.com,81564,RESELLER,5d62403b186f2ace
@@ -445,7 +436,6 @@ smartclip.net,11185,RESELLER
 appnexus.com,1024,RESELLER,f5ab79cb980f11d1
 EMXDGT.com,1849,DIRECT,1e1d41537f7cad7f
 EMXDGT.com,1857,DIRECT,1e1d41537f7cad7f
-Appnexus.com,1356,RESELLER,f5ab79cb980f11d1
 EMXDGT.com,2147,RESELLER,1e1d41537f7cad7f
 indexexchange.com,199307,RESELLER,50b1c356f2c5c8fc
 media.net,8CUB1WH75,RESELLER
@@ -465,7 +455,6 @@ openx.com,544096208,RESELLER,6a698e2ec38604c6
 contextweb.com,562258,RESELLER,89ff185a4c4e857c
 rhythmone.com,2035178308,DIRECT,a670c89d4a324e47
 video.unrulymedia.com,2035178308,DIRECT
-improvedigital.com,1699,RESELLER
 lijit.com,379136-eb,RESELLER,fafdf38b16bf6b2b
 lijit.com,379136,RESELLER,fafdf38b16bf6b2b
 sovrn.com,379136,RESELLER,fafdf38b16bf6b2b
@@ -503,11 +492,6 @@ contextweb.com,562709,RESELLER,89ff185a4c4e857c
 openx.com,539294033,RESELLER,6a698e2ec38604c6
 outbrain.com,0098dd9f41706491afa04c8b6596b3fc45,DIRECT
 outbrain.com,0098dd9f41706491afa04c8b6596b3fc45,RESELLER
-tremorhub.com,q017o-78mlk,RESELLER,1a4e959a1b50034a
-teads.tv,15429,RESELLER,15a9c44f6d26cbe1
-advertising.com,26154,RESELLER
-spotxchange.com,225721,RESELLER
-Freewheel.tv,741650,RESELLER
 adingo.jp,23813,RESELLER
 udmserve.net,3284,DIRECT,0cf60ed62b5f3e40
 33across.com,0014000001aXjnGAAS,RESELLER,bbea06d9c4d2853c
@@ -534,7 +518,6 @@ onetag.com,69934d9795b15a7,DIRECT
 openx.com,537124574,RESELLER,6a698e2ec38604c6
 pubmatic.com,156084,RESELLER,5d62403b186f2ace
 pubmatic.com,156325,RESELLER,5d62403b186f2ace
-pubmatic.com,156344,RESELLER,5d62403b186f2ace
 pubmatic.com,156458,RESELLER,5d62403b186f2ace
 pubmatic.com,156505,RESELLER,5d62403b186f2ace
 pubmatic.com,158355,RESELLER,5d62403b186f2ace
@@ -542,7 +525,6 @@ pubmatic.com,159955,RESELLER,5d62403b186f2ace
 rhythmone.com,1059622079,RESELLER,a670c89d4a324e47
 rhythmone.com,4000889998,RESELLER,a670c89d4a324e47
 rhythmone.com,964214154,RESELLER,a670c89d4a324e47
-rubiconproject.com,13344,RESELLER,0bfd66d529a55807
 smartadserver.com,3056,RESELLER
 sonobi.com,5fa6044d8d,RESELLER,d1a215d9eb5aee9e
 spotx.tv,238463,RESELLER,7842df1d2fe2db34
@@ -570,8 +552,6 @@ themediagrid.com,U8154P,RESELLER,35d5010d7789b49d
 adtech.com,12068,RESELLER,e1a5b5b6e3255540
 yahoo.com,58202,RESELLER,e1a5b5b6e3255540
 yahoo.com,58001,RESELLER,e1a5b5b6e3255540
-pubmatic.com,156107,RESELLER,5d62403b186f2ace
-pubmatic.com,156971,RESELLER,5d62403b186f2ace
 sharethrough.com,7144eb80,RESELLER
 taboola.com,1401499,DIRECT,c228e6794e811952
 spotx.tv,71451,RESELLER
@@ -815,7 +795,6 @@ openx.com,558899373,RESELLER,6a698e2ec38604c6
 pubmatic.com,162474,Reseller,5d62403b186f2ace
 logly.co.jp,151,Direct
 logly.co.jp,203,Reseller
-fourm.jp,A2935,Direct
 richaudience.com,9F65j1nNsk,DIRECT
 adform.com,2631,RESELLER,9f5210a2f0999e32
 pubmatic.com,163238,RESELLER,5d62403b186f2ace
