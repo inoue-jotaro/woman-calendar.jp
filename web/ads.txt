@@ -299,9 +299,9 @@ rubiconproject.com,13136,RESELLER,0bfd66d529a55807
 ad-generation.jp,9140,RESELLER
 publishers.logicad.jp,e5VD,DIRECT
 adingo.jp,23902,RESELLER
-contextweb.com,558355,reseller,
-coxmt.com,2000067995202,reseller,
-outbrain.com,00254374f0c468f3b2732db17fd42cb6e5,reseller,
+contextweb.com,558355,reseller
+coxmt.com,2000067995202,reseller
+outbrain.com,00254374f0c468f3b2732db17fd42cb6e5,reseller
 uliza.jp,9990149,DIRECT
 relaido.jp,9990149,DIRECT
 triplelift.com,7207,DIRECT,6c33edb13117fd86
