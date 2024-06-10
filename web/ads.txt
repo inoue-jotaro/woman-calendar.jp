@@ -817,3 +817,5 @@ popin.cc,woman-calendar_fourm,DIRECT
 ad-generation.jp,9140-2,RESELLER,7f4ea9029ac04e53
 ad-generation.jp,9140,DIRECT,7f4ea9029ac04e53
 video.unrulymedia.com,5672421953199218469,RESELLER
+kargo.com,8824,RESELLER
+appnexus.com,3691,DIRECT,f5ab79cb980f11d1
